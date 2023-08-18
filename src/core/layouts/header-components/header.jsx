@@ -3,6 +3,7 @@ import LogoHeader from './LogoHeader';
 import BuscadorHeader from './BuscadorHeader';
 import BotonHeader from './BotonHeader';
 
+
 const Header = () => {
   const handleBotonClick = (ruta) => {
     // Lógica para manejar la redirección

@@ -2,7 +2,7 @@ import React from "react";
 import Pgrado from "../../../recursos/Pgrado.png";
 
 
-function Cursos (){
+function Cursoss (){
     return(
         <>
         <div className="Pgrado">
@@ -26,4 +26,4 @@ function Cursos (){
     );
 };
 
-export default Cursos;
+export default Cursoss;
