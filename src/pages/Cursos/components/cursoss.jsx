@@ -6,7 +6,7 @@ function Cursoss (){
     return(
         <>
         <div className="Pgrado">
-            <h3>Primer Grado</h3>
+            
         <img src={Pgrado} className="img__first"/>
         <div className="Description">
             <p>
