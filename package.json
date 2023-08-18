@@ -35,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "sass": "^1.66.0",
+    "sass-loader": "^13.3.2",
+    "url-loader": "^4.1.1"
   }
 }

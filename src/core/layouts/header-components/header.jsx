@@ -1,7 +1,7 @@
 import React from 'react';
-import LogoHeader from './LogoComponent';
-import BotonHeader from './BotonComponent';
-import BuscadorHeader from './BuscadorComponent';
+import LogoHeader from './LogoHeader';
+import BuscadorHeader from './BuscadorHeader';
+import BotonHeader from './BotonHeader';
 
 const Header = () => {
   const handleBotonClick = (ruta) => {
@@ -10,6 +10,7 @@ const Header = () => {
   };
 
   return (
+    
     <header className="header">
       <LogoHeader />
       <BotonHeader text="Inicio" onClick={() => handleBotonClick('/inicio')} />
