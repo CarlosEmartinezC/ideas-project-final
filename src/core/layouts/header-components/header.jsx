@@ -2,7 +2,7 @@ import React from 'react';
 import LogoHeader from './LogoHeader';
 import BuscadorHeader from './BuscadorHeader';
 import BotonHeader from './BotonHeader';
-
+import './styleHeader.scss';
 
 const Header = () => {
   const handleBotonClick = (ruta) => {
@@ -12,14 +12,14 @@ const Header = () => {
 
   return (
     
-    <header className="header">
-      <LogoHeader />
-      <BotonHeader text="Inicio" onClick={() => handleBotonClick('/inicio')} />
-      <BotonHeader text="Sobre" onClick={() => handleBotonClick('/sobre')} />
-      <BotonHeader text="Temáticas" onClick={() => handleBotonClick('/tematicas')} />
-      <BotonHeader text="Cursos" onClick={() => handleBotonClick('/cursos')} />
-      <BotonHeader text="Contacto" onClick={() => handleBotonClick('/contacto')} />
-      <BuscadorHeader />
+    <header className="header" id='header' >
+      <LogoHeader id="LogoHeader" />
+      <BotonHeader  text="Inicio" onClick={() => handleBotonClick('/inicio')} />
+      <BotonHeader  text="Sobre" onClick={() => handleBotonClick('/sobre')} />
+      <BotonHeader  text="Temáticas" onClick={() => handleBotonClick('/tematicas')} />
+      <BotonHeader  text="Cursos" onClick={() => handleBotonClick('/cursos')} />
+      <BotonHeader  text="Contacto" onClick={() => handleBotonClick('/contacto')} />
+      <BuscadorHeader id="BuscadorHeader" />
     </header>
   );
 };

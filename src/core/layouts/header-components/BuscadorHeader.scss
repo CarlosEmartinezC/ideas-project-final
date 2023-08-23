@@ -1,0 +1,27 @@
+/* BuscadorHeader.scss */
+
+.buscadorHeader {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff00;
+    width: 225px; /* Ancho del layout */
+    height: 36px; /* Alto del layout */
+    border-radius: 25px; /* Radio del borde */
+    border: 1px solid #a742cc; /* Estilo del borde */
+    padding: 5px;
+    margin-right: 120px;
+  
+    #IconBuscador {
+      height: 24px;
+      width: 23PX;
+      margin-right: 10px;
+      margin-left: 18PX;
+    }
+  
+    #ImputBusHea {
+      border: none;
+      outline: none;
+      flex: 1;
+      background-color: #ffffff00;
+    }
+  }

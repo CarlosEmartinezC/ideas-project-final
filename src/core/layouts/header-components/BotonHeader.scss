@@ -1,0 +1,25 @@
+/* BotonHeader.scss */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.BotonHeader {
+    background-color: #007bff00;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    &:not(:last-child) {
+      margin-right: 10px;
+
+    }
+
+    &:hover {
+        color: #A742CC;
+      }
+    
+    /* Otros estilos según necesites */
+  }
