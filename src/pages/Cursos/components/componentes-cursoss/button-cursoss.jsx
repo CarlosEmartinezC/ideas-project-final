@@ -1,9 +1,12 @@
+
 import React from "react";
 
-function Boton (){
+const BotonHeader = ({ text, onClick }) =>{
     return(
         <button className="boton" onClick={onclick}>
             {text}
         </button>
     )
 }
+
+export default BotonHeader;
