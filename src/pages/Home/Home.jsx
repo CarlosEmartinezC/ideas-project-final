@@ -15,15 +15,12 @@ const CarouselComponent = () => {
       >
         <div className="carousel-item">
           <img src={imagen1} alt="Imagen 1" />
-          <p className="legend">Leyenda 1</p>
         </div>
         <div className="carousel-item">
           <img src={imagen2} alt="Imagen 2" />
-          <p className="legend">Leyenda 2</p>
         </div>
         <div className="carousel-item">
           <img src={imagen3} alt="Imagen 3" />
-          <p className="legend">Leyenda 3</p>
         </div>
       </Carousel>
     );
