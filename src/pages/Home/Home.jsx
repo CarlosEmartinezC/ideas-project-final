@@ -11,6 +11,7 @@ const CarouselComponent = () => {
       <Carousel
         autoPlay       // Carrusel gira automáticamente
         infiniteLoop   // Bucle infinito
+        showThumbs={false} // ocultar imagenes en miniatura
       >
         <div className="carousel-item">
           <img src={imagen1} alt="Imagen 1" />
