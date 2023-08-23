@@ -31,7 +31,7 @@
   
   .image-overlay-text {
     text-align: center;
-    font: 1em sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     padding: 20px;
     max-width: 80%; 
   }
