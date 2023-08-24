@@ -1,4 +1,4 @@
-const ciencias = [ 
+export const ciencias = [ 
     {
     primer_Grado: {
             dba: [
