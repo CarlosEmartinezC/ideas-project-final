@@ -19,9 +19,16 @@
   height: 3em;
 }
 
+.logo-1 {
+  flex: 2;
+  margin-left: 20px;
+  width: 6em;
+  height: 3em;
+}
+
 /* Styles for the information */
 .footer-info {
-  flex: 2;
+  flex: 3;
   text-align: center;
   font-size: 18px; /* Adjust font size */
   font-family: Arial, sans-serif; /* Adjust font family */
@@ -31,7 +38,6 @@
 .footer-buttons {
   flex: 1; /* Equal division */
   display: flex;
-  flex-direction: column; /* Change to column to create a vertical list */
   justify-content: flex-end;
   align-items: flex-end; /* Align items to the right */
 }
