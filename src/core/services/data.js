@@ -1,6 +1,8 @@
-export const ciencias = [ 
-    {
+export const datos = [ 
+    ciencias [{
     primer_Grado: {
+            description:"",
+            img: "",
             dba: [
                 {
                     Id: 1,
@@ -92,6 +94,8 @@ export const ciencias = [
         }
     }, {
         segundo_Grado: {
+            description:"",
+            img: "",
             dba: [
                 {
                     Id: 1,
@@ -181,6 +185,8 @@ export const ciencias = [
         }
     },{ 
         tercer_Grado: {
+        description:"",
+        img: "",
         dba: [
             {
                 Id: 1,
@@ -273,6 +279,8 @@ export const ciencias = [
     }
     }, {
         Cuarto_grado:  {
+            description:"",
+            img: "",
             dba: [
                 {
                     Id: 1,
@@ -361,6 +369,8 @@ export const ciencias = [
         }
     },{
         Quinto_grado:  {
+            description:"",
+            img: "",
             dba: [
                 {
                     Id: 1,
@@ -441,506 +451,512 @@ export const ciencias = [
                 }
             ]
         }
-    }
-]
-const matematicas = [
-    {
+    }],
+    matematicas [{
         primer_Grado: {
-                dba: [
-                    {
-                        Id: 1,
-                        name: "descripcion corta",
-                        Descripción: "Identifica los usos de los números (como código, cardinal, medida, ordinal) y las operaciones (suma y resta) en contextos de juego, familiares, económicos, entre otros.",
-                        content: [
-                            {
-                             evidencia_1: "Construye e interpreta representaciones pictóricas y diagramas para representar relaciones entre cantidades que se presentan en situaciones o fenómenos." 
-                            },
-                            {
-                             evidencia_2: "Explica cómo y por qué es posible hacer una operación (suma o resta) en relación con los usos de los números y el contexto en el cual se presentan."
-                            },
-                            {
-                             evidencia_3: "Reconoce en sus actuaciones cotidianas posibilidades de uso de los números y las operaciones."
-                            },
-                            {
-                             evidencia_4: "Interpreta y resuelve problemas de juntar, quitar y completar, que involucren la cantidad de elementos de una colección o la medida de magnitudes como longitud, peso, capacidad y duración."
-                            },
-                            {evidencia_5: "Utiliza las operaciones (suma y resta) para representar el cambio en una cantidad."}
-                        ]
-                    }, {
-                        Id: 2,
-                        name: "descripcion corta DBA2",
-                        Descripción: "Utiliza diferentes estrategias para contar, realizar operaciones y resolver problemas aditivos.",
-                        content: [
-                            {
-                                evidencia_1: "Realiza conteos (de uno en uno, de dos en dos, etc.) iniciando en cualquier número."},
-                            {
-                                evidencia_2: "Determina la cantidad de elementos de una colección agrupándolos de 1 en 1, de 2 en 2, de 5 en 5." 
-                            },
-                            {
-                                evidencia_3: "Describe y resuelve situaciones variadas con las operaciones de suma y resta en problemas cuya estructura puede ser a + b = ?, a + ? = c, o ? + b = c."
-                            },
-                            {
-                                evidencia_4: "Establece y argumenta conjeturas de los posibles resultados en una secuencia numérica."
-                           },
-                           {
-                                evidencia_5: "Utiliza las características del sistema decimal de numeración para crear estrategias de cálculo y estimación de sumas y restas."
-                           }
-                        ]
-                    }, {
-                        Id: 3,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Utiliza las características posicionales del Sistema de Numeración Decimal (SND) para establecer relaciones entre cantidades y comparar números.',
-                        content: [
-                            {
-                                evidencia_1: 'Realiza composiciones y descomposiciones de números de dos dígitos en términos de la cantidad de "dieces" y de "unos" que los conforman.'},
-                            {
-                                evidencia_2: 'Encuentra parejas de números que al adicionarse dan como resultado otro número dado.'
-                            },
-                            {
-                                evidencia_3: 'Halla los números correspondientes a tener "diez más" o "diez menos" que una cantidad determinada.'
-                            },
-                            {
-                                evidencia_4: 'Emplea estrategias de cálculo como "el paso por el diez" para realizar adiciones o sustracciones.'
-                           }
-                        ]
-                    }, {
-                        Id: 4,
-                        name: "descripcion corta DBA4",
-                        Descripción: 'Reconoce y compara atributos que pueden ser medidos en objetos y eventos (longitud, duración, rapidez, masa, peso, capacidad, cantidad de elementos de una colección, entre otros).',
-                        content: [
-                            {
-                                evidencia_1: 'Identifica atributos que se pueden medir en los objetos.'},
-                            {
-                                evidencia_2: 'Diferencia atributos medibles (longitud, masa, capacidad, duración, cantidad de elementos de una colección), en términos de los instrumentos y las unidades utilizadas para medirlos.'
-                            },
-                            {
-                                evidencia_3: 'Compara y ordena objetos de acuerdo con atributos como altura, peso, intensidades de color, entre otros y recorridos según la distancia de cada trayecto.'
-                            },
-                            {
-                                evidencia_4: 'Compara y ordena colecciones según la cantidad de elementos.'
-                           }
-                        ] 
-                    }, {
-                        Id: 5,
-                        name: 'descripcion corta DBA4',
-                        Descripción: 'Realiza medición de longitudes, capacidades, peso, masa, entre otros, utilizando instrumentos y unidades no estandarizadas y estandarizadas.',
-                        content: [
-                            {
-                                evidencia_1: 'Mide longitudes con diferentes instrumentos y expresa el resultado en unidades estandarizadas o no estandarizadas comunes.'},
-                            {
-                                evidencia_2: 'Compara objetos a partir de su longitud, masa, capacidad y duración de eventos.'
-                            },
-                            {
-                                evidencia_3: 'Toma decisiones a partir de las mediciones realizadas y de acuerdo con los requerimientos del problema.'
-                            }
-                        ]  
-                    }
-                ], 
-                estandares: [
-                    {
-                        curso: 1,
-                        img: "",
-                    },{
-                        curso: 2,
-                        img: "",
+            description:"",
+            img: "",
+            dba: [
+                {
+                    Id: 1,
+                    name: "descripcion corta",
+                    Descripción: "Identifica los usos de los números (como código, cardinal, medida, ordinal) y las operaciones (suma y resta) en contextos de juego, familiares, económicos, entre otros.",
+                    content: [
+                        {
+                         evidencia_1: "Construye e interpreta representaciones pictóricas y diagramas para representar relaciones entre cantidades que se presentan en situaciones o fenómenos." 
+                        },
+                        {
+                         evidencia_2: "Explica cómo y por qué es posible hacer una operación (suma o resta) en relación con los usos de los números y el contexto en el cual se presentan."
+                        },
+                        {
+                         evidencia_3: "Reconoce en sus actuaciones cotidianas posibilidades de uso de los números y las operaciones."
+                        },
+                        {
+                         evidencia_4: "Interpreta y resuelve problemas de juntar, quitar y completar, que involucren la cantidad de elementos de una colección o la medida de magnitudes como longitud, peso, capacidad y duración."
+                        },
+                        {evidencia_5: "Utiliza las operaciones (suma y resta) para representar el cambio en una cantidad."}
+                    ]
+                }, {
+                    Id: 2,
+                    name: "descripcion corta DBA2",
+                    Descripción: "Utiliza diferentes estrategias para contar, realizar operaciones y resolver problemas aditivos.",
+                    content: [
+                        {
+                            evidencia_1: "Realiza conteos (de uno en uno, de dos en dos, etc.) iniciando en cualquier número."},
+                        {
+                            evidencia_2: "Determina la cantidad de elementos de una colección agrupándolos de 1 en 1, de 2 en 2, de 5 en 5." 
+                        },
+                        {
+                            evidencia_3: "Describe y resuelve situaciones variadas con las operaciones de suma y resta en problemas cuya estructura puede ser a + b = ?, a + ? = c, o ? + b = c."
+                        },
+                        {
+                            evidencia_4: "Establece y argumenta conjeturas de los posibles resultados en una secuencia numérica."
+                       },
+                       {
+                            evidencia_5: "Utiliza las características del sistema decimal de numeración para crear estrategias de cálculo y estimación de sumas y restas."
+                       }
+                    ]
+                }, {
+                    Id: 3,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Utiliza las características posicionales del Sistema de Numeración Decimal (SND) para establecer relaciones entre cantidades y comparar números.',
+                    content: [
+                        {
+                            evidencia_1: 'Realiza composiciones y descomposiciones de números de dos dígitos en términos de la cantidad de "dieces" y de "unos" que los conforman.'},
+                        {
+                            evidencia_2: 'Encuentra parejas de números que al adicionarse dan como resultado otro número dado.'
+                        },
+                        {
+                            evidencia_3: 'Halla los números correspondientes a tener "diez más" o "diez menos" que una cantidad determinada.'
+                        },
+                        {
+                            evidencia_4: 'Emplea estrategias de cálculo como "el paso por el diez" para realizar adiciones o sustracciones.'
+                       }
+                    ]
+                }, {
+                    Id: 4,
+                    name: "descripcion corta DBA4",
+                    Descripción: 'Reconoce y compara atributos que pueden ser medidos en objetos y eventos (longitud, duración, rapidez, masa, peso, capacidad, cantidad de elementos de una colección, entre otros).',
+                    content: [
+                        {
+                            evidencia_1: 'Identifica atributos que se pueden medir en los objetos.'},
+                        {
+                            evidencia_2: 'Diferencia atributos medibles (longitud, masa, capacidad, duración, cantidad de elementos de una colección), en términos de los instrumentos y las unidades utilizadas para medirlos.'
+                        },
+                        {
+                            evidencia_3: 'Compara y ordena objetos de acuerdo con atributos como altura, peso, intensidades de color, entre otros y recorridos según la distancia de cada trayecto.'
+                        },
+                        {
+                            evidencia_4: 'Compara y ordena colecciones según la cantidad de elementos.'
+                       }
+                    ] 
+                }, {
+                    Id: 5,
+                    name: 'descripcion corta DBA4',
+                    Descripción: 'Realiza medición de longitudes, capacidades, peso, masa, entre otros, utilizando instrumentos y unidades no estandarizadas y estandarizadas.',
+                    content: [
+                        {
+                            evidencia_1: 'Mide longitudes con diferentes instrumentos y expresa el resultado en unidades estandarizadas o no estandarizadas comunes.'},
+                        {
+                            evidencia_2: 'Compara objetos a partir de su longitud, masa, capacidad y duración de eventos.'
+                        },
+                        {
+                            evidencia_3: 'Toma decisiones a partir de las mediciones realizadas y de acuerdo con los requerimientos del problema.'
+                        }
+                    ]  
+                }
+            ], 
+            estandares: [
+                {
+                    curso: 1,
+                    img: "",
+                },{
+                    curso: 2,
+                    img: "",
     
-                    },{
-                        curso: 3,
-                        img: "",
-                    }
-                ]
+                },{
+                    curso: 3,
+                    img: "",
+                }
+            ]
         }
     }, {
         segundo_Grado: {
-                dba: [
-                    {
-                        Id: 1,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Interpreta, propone y resuelve problemas aditivos (de composición, transformación y relación) que involucren la cantidad en una colección, la medida de magnitudes (longitud, peso, capacidad y duración de eventos) y problemas multiplicativos sencillos.',
-                        content: [
-                            {
-                                evidencia_1: 'Interpreta y construye diagramas para representar relaciones aditivas y multiplicativas entre cantidades que se presentan en situaciones o fenómenos.'},
-                            {
-                                evidencia_2: 'Describe y resuelve situaciones variadas con las operaciones de suma y resta en problemas cuya estructura puede ser a + b = ?, a + ? = c, o ? + b = c.'
-                            },
-                            {
-                                evidencia_3: 'Reconoce en diferentes situaciones relaciones aditivas y multiplicativas y formula problemas a partir de ellas.'
-                            }
-                        ]
-                    }, {
-                        Id: 2,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Utiliza diferentes estrategias para calcular (agrupar, representar elementos en colecciones, etc.) o estimar el resultado de una suma y resta, multiplicación o reparto equitativo.',
-                        content: [
-                            {
-                                evidencia_1: 'Construye representaciones pictóricas y establece relaciones entre las cantidades involucradas en diferentes fenómenos o situaciones.'},
-                            {
-                                evidencia_2: 'Usa algoritmos no convencionales para calcular o estimar el resultado de sumas, restas, multiplicaciones y divisiones entre números naturales, los describe y los justifica.'
-                            }
-                        ]
-                    }, {
-                        Id: 3,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Utiliza el Sistema de Numeración Decimal para comparar, ordenar y establecer diferentes relaciones entre dos o más secuencias de números con ayuda de diferentes recursos.',
-                        content: [
-                            {
-                                evidencia_1: 'Compara y ordena números de menor a mayor y viceversa a través de recursos como la calculadora, aplicación, material gráfico que represente billetes, diagramas de colecciones, etc.'},
-                            {
-                                evidencia_2: 'Propone ejemplos y comunica de forma oral y escrita las condiciones que puede establecer para conservar una relación (mayor que, menor que) cuando se aplican algunas operaciones a ellos.'
-                            },
-                            {
-                                evidencia_3: 'Reconoce y establece relaciones entre expresiones numéricas (hay más, hay menos, hay la misma cantidad) y describe el tipo de operaciones que debe realizarse para que a pesar de cambiar los valores numéricos, la relación se conserve.'
-                            }
-                        ]
-                    }, {
-                        Id: 4,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Compara y explica características que se pueden medir, en el proceso de resolución de problemas relativos a longitud, superficie, velocidad, peso o duración de los eventos, entre otros.',
-                        content: [
-                            {
-                                evidencia_1: 'Utiliza instrumentos y unidades de medición apropiados para medir magnitudes diferentes.'},
-                            {
-                                evidencia_2: 'Describe los procedimientos necesarios para medir longitudes, superficies, capacidades, pesos de los objetos y la duración de los eventos.'
-                            },
-                            {
-                                evidencia_3: 'Mide magnitudes con unidades arbitrarias y estandarizadas.'
-                            },
-                            {
-                                evidencia_4: 'Estima la medida de diferentes magnitudes en situaciones prácticas.'
-                           }
-                        ]
-                    }, {
-                        Id: 5,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Utiliza patrones, unidades e instrumentos convencionales y no convencionales en procesos de medición, cálculo y estimación de magnitudes como longitud, peso, capacidad y tiempo.',
-                        content: [
-                            {
-                                evidencia_1: 'Describe objetos y eventos de acuerdo con atributos medibles: superficie, tiempo, longitud, peso, ángulos.'},
-                            {
-                                evidencia_2: 'Realiza mediciones con instrumentos y unidades no convencionales, como pasos, cuadrados o rectángulos, cuartas, metros, entre otros.'
-                            },
-                            {
-                                evidencia_3: 'Compara eventos según su duración, para ello utiliza relojes convencionales.'
-                            }
-                        ]
-                    }, {
-                        Id: 6,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Clasifica, describe y representa objetos del entorno a partir de sus propiedades geométricas para establecer relaciones entre las formas bidimensionales y tridimensionales.',
-                        content: [
-                            {
-                                evidencia_1: 'Reconoce las figuras geométricas según el número de lados.'},
-                            {
-                                evidencia_2: 'Diferencia los cuerpos geométricos.'
-                            },
-                            {
-                                evidencia_3: 'Compara figuras y cuerpos geométricos y establece relaciones y diferencias entre ambos.'
-                            }
-                        ]
-                    }, {
-                        Id: 7,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Describe desplazamientos y referencia la posición de un objeto mediante nociones de horizontalidad, verticalidad, paralelismo y perpendicularidad en la solución de problemas.',
-                        content: [
-                            {
-                                evidencia_1: 'Describe desplazamientos a partir de las posiciones de las líneas.'},
-                            {
-                                evidencia_2: 'Representa líneas y reconoce las diferentes posiciones y la relación entre ellas.'
-                            },
-                            {
-                                evidencia_3: 'En dibujos, objetos o espacios reales, identifica posiciones de objetos, de aristas o líneas que son paralelas, verticales o perpendiculares.'
-                            },
-                            {
-                                evidencia_4: 'Argumenta las diferencias entre las posiciones de las líneas.'
-                           }
-                        ]
-                    }, {
-                        Id: 8,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Propone e identifica patrones y utiliza propiedades de los números y de las operaciones para calcular valores desconocidos en expresiones aritméticas.',
-                        content: [
-                            {
-                                evidencia_1: 'Establece relaciones de reversibilidad entre la suma y la resta.'},
-                            {
-                                evidencia_2: 'Utiliza diferentes procedimientos para calcular un valor desconocido.'
-                            }
-                        ]
-                    }, {
-                        Id: 9,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Opera sobre secuencias numéricas para encontrar números u operaciones faltantes y utiliza las propiedades de las operaciones en contextos escolares o extraescolares.',
-                        content: [
-                            {
-                                evidencia_1: 'Utiliza las propiedades de las operaciones para encontrar números desconocidos en igualdades numéricas.'},
-                            {
-                                evidencia_2: 'Utiliza las propiedades de las operaciones para encontrar operaciones faltantes en un proceso de cálculo numérico.'
-                            },
-                            {
-                                evidencia_3: 'Reconoce que un número puede escribirse de varias maneras equivalentes.'
-                            },
-                            {
-                                evidencia_4: 'Utiliza ensayo y error para encontrar valores u operaciones desconocidas.'
-                           }
-                        ]
-                    }, {
-                        Id: 10,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Clasifica y organiza datos, los representa utilizando tablas de conteo, pictogramas con escalas y gráficos de puntos, comunica los resultados obtenidos para responder preguntas sencillas.',
-                        content: [
-                            {
-                                evidencia_1: 'Identifica la equivalencia de fichas u objetos con el valor de la variable.'},
-                            {
-                                evidencia_2: 'Organiza los datos en tablas de conteo y en pictogramas con escala (uno a muchos).'
-                            },
-                            {
-                                evidencia_3: 'Lee la información presentada en tablas de conteo, pictogramas con escala y gráficos de puntos.'
-                            },
-                            {
-                                evidencia_4: 'Comunica los resultados respondiendo. '
-                           }
-                        ]
-                    }, {
-                        Id: 11,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Explica, a partir de la experiencia, la posibilidad de ocurrencia o no de un evento cotidiano y el resultado lo utiliza para predecir la ocurrencia de otros eventos.',
-                        content: [
-                            {
-                                evidencia_1: 'Diferencia situaciones cotidianas cuyo resultado puede ser incierto de aquellas cuyo resultado es conocido o seguro.'
-                            },
-                            {
-                                evidencia_2: 'Identifica resultados posibles o imposibles, según corresponda, en una situación cotidiana.'
-                            },
-                            {
-                                evidencia_3: 'Predice la ocurrencia o no de eventos cotidianos basado en sus observaciones.'
-                            }
-                        ]
-                    }
-                ],
-                estandares: [
-                    {
-                        curso: 1,
-                        img: "",
-                    },{
-                        curso: 2,
-                        img: "",
+            description:"",
+            img: "",
+            dba: [
+                {
+                    Id: 1,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Interpreta, propone y resuelve problemas aditivos (de composición, transformación y relación) que involucren la cantidad en una colección, la medida de magnitudes (longitud, peso, capacidad y duración de eventos) y problemas multiplicativos sencillos.',
+                    content: [
+                        {
+                            evidencia_1: 'Interpreta y construye diagramas para representar relaciones aditivas y multiplicativas entre cantidades que se presentan en situaciones o fenómenos.'},
+                        {
+                            evidencia_2: 'Describe y resuelve situaciones variadas con las operaciones de suma y resta en problemas cuya estructura puede ser a + b = ?, a + ? = c, o ? + b = c.'
+                        },
+                        {
+                            evidencia_3: 'Reconoce en diferentes situaciones relaciones aditivas y multiplicativas y formula problemas a partir de ellas.'
+                        }
+                    ]
+                }, {
+                    Id: 2,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Utiliza diferentes estrategias para calcular (agrupar, representar elementos en colecciones, etc.) o estimar el resultado de una suma y resta, multiplicación o reparto equitativo.',
+                    content: [
+                        {
+                            evidencia_1: 'Construye representaciones pictóricas y establece relaciones entre las cantidades involucradas en diferentes fenómenos o situaciones.'},
+                        {
+                            evidencia_2: 'Usa algoritmos no convencionales para calcular o estimar el resultado de sumas, restas, multiplicaciones y divisiones entre números naturales, los describe y los justifica.'
+                        }
+                    ]
+                }, {
+                    Id: 3,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Utiliza el Sistema de Numeración Decimal para comparar, ordenar y establecer diferentes relaciones entre dos o más secuencias de números con ayuda de diferentes recursos.',
+                    content: [
+                        {
+                            evidencia_1: 'Compara y ordena números de menor a mayor y viceversa a través de recursos como la calculadora, aplicación, material gráfico que represente billetes, diagramas de colecciones, etc.'},
+                        {
+                            evidencia_2: 'Propone ejemplos y comunica de forma oral y escrita las condiciones que puede establecer para conservar una relación (mayor que, menor que) cuando se aplican algunas operaciones a ellos.'
+                        },
+                        {
+                            evidencia_3: 'Reconoce y establece relaciones entre expresiones numéricas (hay más, hay menos, hay la misma cantidad) y describe el tipo de operaciones que debe realizarse para que a pesar de cambiar los valores numéricos, la relación se conserve.'
+                        }
+                    ]
+                }, {
+                    Id: 4,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Compara y explica características que se pueden medir, en el proceso de resolución de problemas relativos a longitud, superficie, velocidad, peso o duración de los eventos, entre otros.',
+                    content: [
+                        {
+                            evidencia_1: 'Utiliza instrumentos y unidades de medición apropiados para medir magnitudes diferentes.'},
+                        {
+                            evidencia_2: 'Describe los procedimientos necesarios para medir longitudes, superficies, capacidades, pesos de los objetos y la duración de los eventos.'
+                        },
+                        {
+                            evidencia_3: 'Mide magnitudes con unidades arbitrarias y estandarizadas.'
+                        },
+                        {
+                            evidencia_4: 'Estima la medida de diferentes magnitudes en situaciones prácticas.'
+                       }
+                    ]
+                }, {
+                    Id: 5,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Utiliza patrones, unidades e instrumentos convencionales y no convencionales en procesos de medición, cálculo y estimación de magnitudes como longitud, peso, capacidad y tiempo.',
+                    content: [
+                        {
+                            evidencia_1: 'Describe objetos y eventos de acuerdo con atributos medibles: superficie, tiempo, longitud, peso, ángulos.'},
+                        {
+                            evidencia_2: 'Realiza mediciones con instrumentos y unidades no convencionales, como pasos, cuadrados o rectángulos, cuartas, metros, entre otros.'
+                        },
+                        {
+                            evidencia_3: 'Compara eventos según su duración, para ello utiliza relojes convencionales.'
+                        }
+                    ]
+                }, {
+                    Id: 6,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Clasifica, describe y representa objetos del entorno a partir de sus propiedades geométricas para establecer relaciones entre las formas bidimensionales y tridimensionales.',
+                    content: [
+                        {
+                            evidencia_1: 'Reconoce las figuras geométricas según el número de lados.'},
+                        {
+                            evidencia_2: 'Diferencia los cuerpos geométricos.'
+                        },
+                        {
+                            evidencia_3: 'Compara figuras y cuerpos geométricos y establece relaciones y diferencias entre ambos.'
+                        }
+                    ]
+                }, {
+                    Id: 7,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Describe desplazamientos y referencia la posición de un objeto mediante nociones de horizontalidad, verticalidad, paralelismo y perpendicularidad en la solución de problemas.',
+                    content: [
+                        {
+                            evidencia_1: 'Describe desplazamientos a partir de las posiciones de las líneas.'},
+                        {
+                            evidencia_2: 'Representa líneas y reconoce las diferentes posiciones y la relación entre ellas.'
+                        },
+                        {
+                            evidencia_3: 'En dibujos, objetos o espacios reales, identifica posiciones de objetos, de aristas o líneas que son paralelas, verticales o perpendiculares.'
+                        },
+                        {
+                            evidencia_4: 'Argumenta las diferencias entre las posiciones de las líneas.'
+                       }
+                    ]
+                }, {
+                    Id: 8,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Propone e identifica patrones y utiliza propiedades de los números y de las operaciones para calcular valores desconocidos en expresiones aritméticas.',
+                    content: [
+                        {
+                            evidencia_1: 'Establece relaciones de reversibilidad entre la suma y la resta.'},
+                        {
+                            evidencia_2: 'Utiliza diferentes procedimientos para calcular un valor desconocido.'
+                        }
+                    ]
+                }, {
+                    Id: 9,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Opera sobre secuencias numéricas para encontrar números u operaciones faltantes y utiliza las propiedades de las operaciones en contextos escolares o extraescolares.',
+                    content: [
+                        {
+                            evidencia_1: 'Utiliza las propiedades de las operaciones para encontrar números desconocidos en igualdades numéricas.'},
+                        {
+                            evidencia_2: 'Utiliza las propiedades de las operaciones para encontrar operaciones faltantes en un proceso de cálculo numérico.'
+                        },
+                        {
+                            evidencia_3: 'Reconoce que un número puede escribirse de varias maneras equivalentes.'
+                        },
+                        {
+                            evidencia_4: 'Utiliza ensayo y error para encontrar valores u operaciones desconocidas.'
+                       }
+                    ]
+                }, {
+                    Id: 10,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Clasifica y organiza datos, los representa utilizando tablas de conteo, pictogramas con escalas y gráficos de puntos, comunica los resultados obtenidos para responder preguntas sencillas.',
+                    content: [
+                        {
+                            evidencia_1: 'Identifica la equivalencia de fichas u objetos con el valor de la variable.'},
+                        {
+                            evidencia_2: 'Organiza los datos en tablas de conteo y en pictogramas con escala (uno a muchos).'
+                        },
+                        {
+                            evidencia_3: 'Lee la información presentada en tablas de conteo, pictogramas con escala y gráficos de puntos.'
+                        },
+                        {
+                            evidencia_4: 'Comunica los resultados respondiendo. '
+                       }
+                    ]
+                }, {
+                    Id: 11,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Explica, a partir de la experiencia, la posibilidad de ocurrencia o no de un evento cotidiano y el resultado lo utiliza para predecir la ocurrencia de otros eventos.',
+                    content: [
+                        {
+                            evidencia_1: 'Diferencia situaciones cotidianas cuyo resultado puede ser incierto de aquellas cuyo resultado es conocido o seguro.'
+                        },
+                        {
+                            evidencia_2: 'Identifica resultados posibles o imposibles, según corresponda, en una situación cotidiana.'
+                        },
+                        {
+                            evidencia_3: 'Predice la ocurrencia o no de eventos cotidianos basado en sus observaciones.'
+                        }
+                    ]
+                }
+            ],
+            estandares: [
+                {
+                    curso: 1,
+                    img: "",
+                },{
+                    curso: 2,
+                    img: "",
     
-                    },{
-                        curso: 3,
-                        img: "",
-                    }
+                },{
+                    curso: 3,
+                    img: "",
+                }
     
-                ]
+            ]
         }
     },{ 
         tercer_Grado: {
-                dba: [
-                    {
-                        Id: 1,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Interpreta, formula y resuelve problemas aditivos de composición, transformación y comparación en diferentes contextos; y multiplicativos, directos e inversos, en diferentes contextos.',
-                        content: [
-                            {
-                                evidencia_1: 'Construye diagramas para representar las relaciones observadas entre las cantidades presentes en una situación.'
-                            },
-                            {
-                                evidencia_2: 'Resuelve problemas aditivos (suma o resta) y multiplicativos (multiplicación o división) de composición de medida y de conteo.'
-                            },
-                            {
-                                evidencia_3: 'Propone estrategias para calcular el número de combinaciones posibles de un conjunto de atributos.'
-                            },
-                            {
-                                evidencia_4: 'Analiza los resultados ofrecidos por el cálculo matemático e identifica las condiciones bajo las cuales ese resultado es o no plausible.'
-                            }
-                        ]
-                    }, {
-                        Id: 2,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Propone, desarrolla y justifica estrategias para hacer estimaciones y cálculos con operaciones básicas en la solución de problemas.',
-                        content: [
-                            {
-                                evidencia_1: 'Utiliza las propiedades de las operaciones y del Sistema de Numeración Decimal para justificar acciones como: descomposición de números, completar hasta la decena más cercana, duplicar, cambiar la posición, multiplicar abreviadamente por múltiplos de 10, entre otros.'
-                            },
-                            {
-                                evidencia_2: 'Reconoce el uso de las operaciones para calcular la medida (compuesta) de diferentes objetos de su entorno.'
-                            },
-                            {
-                                evidencia_3: 'Argumenta cuáles atributos de los objetos pueden ser medidos mediante la comparación directa con una unidad y cuáles pueden ser calculados con algunas operaciones entre números.'
-                            }
-                        ]
-                    }, {
-                        Id: 3,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Establece comparaciones entre cantidades y expresiones que involucran operaciones y relaciones aditivas y multiplicativas y sus representaciones numéricas.',
-                        content: [
-                            {
-                                evidencia_1: 'Realiza mediciones de un mismo objeto con otros de diferente tamaño y establece equivalencias entre ellas.'
-                            },
-                            {
-                                evidencia_2: 'Utiliza las razones y fracciones como una manera de establecer comparaciones entre dos cantidades.'
-                            },
-                            {
-                                evidencia_3: 'Propone ejemplos de cantidades que se relacionan entre sí según correspondan a una fracción dada.'
-                            },
-                            {
-                                evidencia_4: 'Utiliza fracciones para expresar la relación de "el todo" con algunas de sus "partes", asimismo diferencia este tipo de relación de otras como las relaciones de equivalencia (igualdad) y de orden (mayor que y menor que).'
-                            }
-                        ]
-                    }, {
-                        Id: 4,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Describe y argumenta posibles relaciones entre los valores del área y el perímetro de figuras planas (especialmente cuadriláteros).',
-                        content: [
-                            {
-                                evidencia_1: 'Toma decisiones sobre la magnitud a medir (área o longitud) según la necesidad de una situación.'
-                            },
-                            {
-                                evidencia_2: 'Realiza recubrimientos de superficies con diferentes figuras planas.'
-                            },
-                            {
-                                evidencia_3: 'Mide y calcula el área y el perímetro de un rectángulo y expresa el resultado en unidades apropiadas según el caso.'
-                            },
-                            {
-                                evidencia_4: 'Explica cómo figuras de igual perímetro pueden tener diferente área.'
-                           }
-                        ]
-                    }, {
-                        Id: 5,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Realiza estimaciones y mediciones de volumen, capacidad, longitud, área, peso de objetos o la duración de eventos como parte del proceso para resolver diferentes problemas.',
-                        content: [
-                            {
-                                evidencia_1: 'Compara objetos según su longitud, área, capacidad, volumen, etc.'
-                            },
-                            {
-                                evidencia_2: 'Hace estimaciones de longitud, área, volumen, peso y tiempo según su necesidad en la situación.'
-                            },
-                            {
-                                evidencia_3: 'Hace estimaciones de volumen, área y longitud en presencia de los objetos y los instrumentos de medida y en ausencia de ellos.'
-                            },
-                            {
-                                evidencia_4: 'Empaca objetos en cajas y recipientes variados y calcula la cantidad que podría caber; para ello tiene en cuenta la forma y volumen de los objetos a empacar y la capacidad del recipiente en el que se empaca.'
-                           }
-                        ]
-                    }, {
-                        Id: 6,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Describe y representa formas bidimensionales y tridimensionales de acuerdo con las propiedades geométricas.',
-                        content: [
-                            {
-                                evidencia_1: 'Relaciona objetos de su entorno con formas bidimensionales y tridimensionales, nombra y describe sus elementos.'
-                            },
-                            {
-                                evidencia_2: 'Clasifica y representa formas bidimensionales y tridimensionales tomando en cuenta sus características geométricas comunes y describe el criterio utilizado.'
-                            },
-                            {
-                                evidencia_3: 'Interpreta, compara y justifica propiedades de formas bidimensionales y tridimensionales.'
-                            }
-                        ]
-                    }, {
-                        Id: 7,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Formula y resuelve problemas que se relacionan con la posición, la dirección y el movimiento de objetos en el entorno.',
-                        content: [
-                            {
-                                evidencia_1: 'Localiza objetos o personas a partir de la descripción o representación de una trayectoria y construye representaciones pictóricas para describir sus relaciones.'
-                            },
-                            {
-                                evidencia_2: 'Identifica y describe patrones de movimiento de figuras bidimensionales que se asocian con transformaciones como: reflexiones, traslaciones y rotaciones de figuras.'
-                            },
-                            {
-                                evidencia_3: 'Identifica las propiedades de los objetos que se conservan y las que varían cuando se realizan este tipo de transformaciones.'
-                            },
-                            {
-                                evidencia_4: 'Plantea y resuelve situaciones en las que se requiere analizar las transformaciones de diferentes figuras en el plano.'
-                           }
-                        ]
-                    }, {
-                        Id: 8,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Describe y representa los aspectos que cambian y permanecen constantes en secuencias y en otras situaciones de variación.',
-                        content: [
-                            {
-                                evidencia_1: 'Describe de manera cualitativa situaciones de cambio y variación utilizando lenguaje natural, gestos, dibujos y gráficas.'
-                            },
-                            {
-                                evidencia_2: 'Construye secuencias numéricas y geométricas utilizando propiedades de los números y de las figuras geométricas.'
-                            },
-                            {
-                                evidencia_3: 'Encuentra y representa generalidades y valida sus hallazgos de acuerdo al contexto.'
-                            }
-                        ]
-                    }, {
-                        Id: 9,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Argumenta sobre situaciones numéricas, geométricas y enunciados verbales en los que aparecen datos desconocidos para definir sus posibles valores según el contexto.',
-                        content: [
-                            {
-                                evidencia_1: 'Propone soluciones con base en los datos a pesar de no conocer el número.'
-                            },
-                            {
-                                evidencia_2: 'Toma decisiones sobre cantidades aunque no conozca exactamente los valores.'
-                            },
-                            {
-                                evidencia_3: 'Trabaja sobre números desconocidos y con esos números para dar respuestas a los problemas.'
-                            }
-                        ]
-                    }, {
-                        Id: 10,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Lee e interpreta información contenida en tablas de frecuencia, gráficos de barras y/o pictogramas con escala, para formular y resolver preguntas de situaciones de su entorno.',
-                        content: [
-                            {
-                                evidencia_1: 'Identifica las características de la población y halla su tamaño a partir de diferentes representaciones estadísticas.'
-                            },
-                            {
-                                evidencia_2: 'Construye tablas y gráficos que representan los datos a partir de la información dada.'
-                            },
-                            {
-                                evidencia_3: 'Analiza e interpreta información que ofrecen las tablas y los gráficos de acuerdo con el contexto.'
-                            },
-                            {
-                                evidencia_4: 'Identifica la moda a partir de datos que se presentan en gráficos y tablas.'
-                           },
-                           {
-                                evidencia_5: 'Compara la información representada en diferentes tablas y gráficos para formular y responder preguntas.'
-                           }
-                        ]
-                    }, {
-                        Id: 11,
-                        name: 'descripcion corta DBA3',
-                        Descripción: 'Plantea y resuelve preguntas sobre la posibilidad de ocurrencia de situaciones aleatorias cotidianas y cuantifica la posibilidad de ocurrencia de eventos simples en una escala cualitativa (mayor, menor e igual).',
-                        content: [
-                            {
-                                evidencia_1: 'Formula y resuelve preguntas que involucran expresiones que jerarquizan la posibilidad de ocurrencia de un evento, por ejemplo: imposible, menos posible, igualmente posible, más posible, seguro.'
-                            },
-                            {
-                                evidencia_2: 'Representa los posibles resultados de una situación aleatoria simple por enumeración o usando diagramas.'
-                            },
-                            {
-                                evidencia_3: 'Asigna la posibilidad de ocurrencia de un evento de acuerdo con la escala definida.'
-                            },
-                            {
-                                evidencia_4: 'Predice la posibilidad de ocurrencia de un evento al utilizar los resultados de una situación aleatoria.'
-                            }
-                        ]
-                    }
-                ],
-                estandares: [
-                    {
-                        curso: 1,
-                        img: "",
-                    },{
-                        curso: 2,
-                        img: "",
-        
-                    },{
-                        curso: 3,
-                        img: "",
-                    }
-                ]
+            description:"",
+            img: "",
+            dba: [
+                {
+                    Id: 1,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Interpreta, formula y resuelve problemas aditivos de composición, transformación y comparación en diferentes contextos; y multiplicativos, directos e inversos, en diferentes contextos.',
+                    content: [
+                        {
+                            evidencia_1: 'Construye diagramas para representar las relaciones observadas entre las cantidades presentes en una situación.'
+                        },
+                        {
+                            evidencia_2: 'Resuelve problemas aditivos (suma o resta) y multiplicativos (multiplicación o división) de composición de medida y de conteo.'
+                        },
+                        {
+                            evidencia_3: 'Propone estrategias para calcular el número de combinaciones posibles de un conjunto de atributos.'
+                        },
+                        {
+                            evidencia_4: 'Analiza los resultados ofrecidos por el cálculo matemático e identifica las condiciones bajo las cuales ese resultado es o no plausible.'
+                        }
+                    ]
+                }, {
+                    Id: 2,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Propone, desarrolla y justifica estrategias para hacer estimaciones y cálculos con operaciones básicas en la solución de problemas.',
+                    content: [
+                        {
+                            evidencia_1: 'Utiliza las propiedades de las operaciones y del Sistema de Numeración Decimal para justificar acciones como: descomposición de números, completar hasta la decena más cercana, duplicar, cambiar la posición, multiplicar abreviadamente por múltiplos de 10, entre otros.'
+                        },
+                        {
+                            evidencia_2: 'Reconoce el uso de las operaciones para calcular la medida (compuesta) de diferentes objetos de su entorno.'
+                        },
+                        {
+                            evidencia_3: 'Argumenta cuáles atributos de los objetos pueden ser medidos mediante la comparación directa con una unidad y cuáles pueden ser calculados con algunas operaciones entre números.'
+                        }
+                    ]
+                }, {
+                    Id: 3,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Establece comparaciones entre cantidades y expresiones que involucran operaciones y relaciones aditivas y multiplicativas y sus representaciones numéricas.',
+                    content: [
+                        {
+                            evidencia_1: 'Realiza mediciones de un mismo objeto con otros de diferente tamaño y establece equivalencias entre ellas.'
+                        },
+                        {
+                            evidencia_2: 'Utiliza las razones y fracciones como una manera de establecer comparaciones entre dos cantidades.'
+                        },
+                        {
+                            evidencia_3: 'Propone ejemplos de cantidades que se relacionan entre sí según correspondan a una fracción dada.'
+                        },
+                        {
+                            evidencia_4: 'Utiliza fracciones para expresar la relación de "el todo" con algunas de sus "partes", asimismo diferencia este tipo de relación de otras como las relaciones de equivalencia (igualdad) y de orden (mayor que y menor que).'
+                        }
+                    ]
+                }, {
+                    Id: 4,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Describe y argumenta posibles relaciones entre los valores del área y el perímetro de figuras planas (especialmente cuadriláteros).',
+                    content: [
+                        {
+                            evidencia_1: 'Toma decisiones sobre la magnitud a medir (área o longitud) según la necesidad de una situación.'
+                        },
+                        {
+                            evidencia_2: 'Realiza recubrimientos de superficies con diferentes figuras planas.'
+                        },
+                        {
+                            evidencia_3: 'Mide y calcula el área y el perímetro de un rectángulo y expresa el resultado en unidades apropiadas según el caso.'
+                        },
+                        {
+                            evidencia_4: 'Explica cómo figuras de igual perímetro pueden tener diferente área.'
+                       }
+                    ]
+                }, {
+                    Id: 5,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Realiza estimaciones y mediciones de volumen, capacidad, longitud, área, peso de objetos o la duración de eventos como parte del proceso para resolver diferentes problemas.',
+                    content: [
+                        {
+                            evidencia_1: 'Compara objetos según su longitud, área, capacidad, volumen, etc.'
+                        },
+                        {
+                            evidencia_2: 'Hace estimaciones de longitud, área, volumen, peso y tiempo según su necesidad en la situación.'
+                        },
+                        {
+                            evidencia_3: 'Hace estimaciones de volumen, área y longitud en presencia de los objetos y los instrumentos de medida y en ausencia de ellos.'
+                        },
+                        {
+                            evidencia_4: 'Empaca objetos en cajas y recipientes variados y calcula la cantidad que podría caber; para ello tiene en cuenta la forma y volumen de los objetos a empacar y la capacidad del recipiente en el que se empaca.'
+                       }
+                    ]
+                }, {
+                    Id: 6,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Describe y representa formas bidimensionales y tridimensionales de acuerdo con las propiedades geométricas.',
+                    content: [
+                        {
+                            evidencia_1: 'Relaciona objetos de su entorno con formas bidimensionales y tridimensionales, nombra y describe sus elementos.'
+                        },
+                        {
+                            evidencia_2: 'Clasifica y representa formas bidimensionales y tridimensionales tomando en cuenta sus características geométricas comunes y describe el criterio utilizado.'
+                        },
+                        {
+                            evidencia_3: 'Interpreta, compara y justifica propiedades de formas bidimensionales y tridimensionales.'
+                        }
+                    ]
+                }, {
+                    Id: 7,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Formula y resuelve problemas que se relacionan con la posición, la dirección y el movimiento de objetos en el entorno.',
+                    content: [
+                        {
+                            evidencia_1: 'Localiza objetos o personas a partir de la descripción o representación de una trayectoria y construye representaciones pictóricas para describir sus relaciones.'
+                        },
+                        {
+                            evidencia_2: 'Identifica y describe patrones de movimiento de figuras bidimensionales que se asocian con transformaciones como: reflexiones, traslaciones y rotaciones de figuras.'
+                        },
+                        {
+                            evidencia_3: 'Identifica las propiedades de los objetos que se conservan y las que varían cuando se realizan este tipo de transformaciones.'
+                        },
+                        {
+                            evidencia_4: 'Plantea y resuelve situaciones en las que se requiere analizar las transformaciones de diferentes figuras en el plano.'
+                       }
+                    ]
+                }, {
+                    Id: 8,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Describe y representa los aspectos que cambian y permanecen constantes en secuencias y en otras situaciones de variación.',
+                    content: [
+                        {
+                            evidencia_1: 'Describe de manera cualitativa situaciones de cambio y variación utilizando lenguaje natural, gestos, dibujos y gráficas.'
+                        },
+                        {
+                            evidencia_2: 'Construye secuencias numéricas y geométricas utilizando propiedades de los números y de las figuras geométricas.'
+                        },
+                        {
+                            evidencia_3: 'Encuentra y representa generalidades y valida sus hallazgos de acuerdo al contexto.'
+                        }
+                    ]
+                }, {
+                    Id: 9,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Argumenta sobre situaciones numéricas, geométricas y enunciados verbales en los que aparecen datos desconocidos para definir sus posibles valores según el contexto.',
+                    content: [
+                        {
+                            evidencia_1: 'Propone soluciones con base en los datos a pesar de no conocer el número.'
+                        },
+                        {
+                            evidencia_2: 'Toma decisiones sobre cantidades aunque no conozca exactamente los valores.'
+                        },
+                        {
+                            evidencia_3: 'Trabaja sobre números desconocidos y con esos números para dar respuestas a los problemas.'
+                        }
+                    ]
+                }, {
+                    Id: 10,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Lee e interpreta información contenida en tablas de frecuencia, gráficos de barras y/o pictogramas con escala, para formular y resolver preguntas de situaciones de su entorno.',
+                    content: [
+                        {
+                            evidencia_1: 'Identifica las características de la población y halla su tamaño a partir de diferentes representaciones estadísticas.'
+                        },
+                        {
+                            evidencia_2: 'Construye tablas y gráficos que representan los datos a partir de la información dada.'
+                        },
+                        {
+                            evidencia_3: 'Analiza e interpreta información que ofrecen las tablas y los gráficos de acuerdo con el contexto.'
+                        },
+                        {
+                            evidencia_4: 'Identifica la moda a partir de datos que se presentan en gráficos y tablas.'
+                       },
+                       {
+                            evidencia_5: 'Compara la información representada en diferentes tablas y gráficos para formular y responder preguntas.'
+                       }
+                    ]
+                }, {
+                    Id: 11,
+                    name: 'descripcion corta DBA3',
+                    Descripción: 'Plantea y resuelve preguntas sobre la posibilidad de ocurrencia de situaciones aleatorias cotidianas y cuantifica la posibilidad de ocurrencia de eventos simples en una escala cualitativa (mayor, menor e igual).',
+                    content: [
+                        {
+                            evidencia_1: 'Formula y resuelve preguntas que involucran expresiones que jerarquizan la posibilidad de ocurrencia de un evento, por ejemplo: imposible, menos posible, igualmente posible, más posible, seguro.'
+                        },
+                        {
+                            evidencia_2: 'Representa los posibles resultados de una situación aleatoria simple por enumeración o usando diagramas.'
+                        },
+                        {
+                            evidencia_3: 'Asigna la posibilidad de ocurrencia de un evento de acuerdo con la escala definida.'
+                        },
+                        {
+                            evidencia_4: 'Predice la posibilidad de ocurrencia de un evento al utilizar los resultados de una situación aleatoria.'
+                        }
+                    ]
+                }
+            ],
+            estandares: [
+                {
+                    curso: 1,
+                    img: "",
+                },{
+                    curso: 2,
+                    img: "",
+    
+                },{
+                    curso: 3,
+                    img: "",
+                }
+            ]
         }
     }, {
         Cuarto_grado:  {
+            description:"",
+            img: "",
             dba: [ 
                 {
                     Id: 1,
@@ -1139,6 +1155,8 @@ const matematicas = [
         }
     },{
         Quinto_grado:  {
+            description:"",
+            img: "",
             dba: [ 
                 {
                     Id: 1,
@@ -1378,5 +1396,5 @@ const matematicas = [
                 }
             ]
         }  
-    }
+    }]
 ]
