@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useRef, useState } from 'react';
 import './Contact.css'
-import Header from '../../core/layouts/header-components'
-import Footer from '../../core/layouts/footer-components'
 import { MdOutlineEmail } from 'react-icons/md';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const [message, setMessage] = useState(false);
@@ -30,7 +29,7 @@ const Contact = () => {
     };
     return (
         <div className='Contact'>
-        <Header/>
+        
       <section id="contact">
         <h5>Ponerse en contacto</h5>
         <h5>
@@ -72,7 +71,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
-      <Footer/>
+     
       </div>
      
     );
