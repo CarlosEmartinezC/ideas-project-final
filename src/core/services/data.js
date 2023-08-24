@@ -452,7 +452,7 @@ export const datos = [
             ]
         }
     }],
-    matematicas [{
+    matematicas[{
         primer_Grado: {
             description:"",
             img: "",
