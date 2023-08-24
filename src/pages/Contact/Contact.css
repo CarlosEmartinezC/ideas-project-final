@@ -9,11 +9,14 @@
 .Contact h5{
     position: relative;
     top: 30px;
+    text-align: center;
+    
 }
 
 .Contact h2{
     position: relative;
     top: 40px;
+    text-align: center;
 }
 
 
@@ -39,34 +42,9 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid rgb(11, 10, 10);
     transition: var(--transition);
     cursor: pointer;
-}
-
-.contact__option:hover {
-    background: transparent;
-    border-color: white;
-}
-
-.contact__option-icon {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    
-}
-
-.contact__option a {
-    margin-top: 0.7rem;
-    display: inline-block;
-    font-size: 0.8rem;
-}
-
-.contact__option h5 {
-    color: var(--color-light);
-}
-
-.contact__option h4 {
-    font-weight: 500;
 }
 
 form span {
@@ -85,7 +63,7 @@ textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid rgb(16, 16, 16);
     resize: none;
     color: var(--color-white);
 }
