@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import MateriaGradoSelector from './MateriaGradoSelector';
-import ImagenDescripcion from './ImagenDescripcion';
-import DbaEstandares from './Dba';
+import MateriaGradoSelector from './components/cursoss';
+import ImagenDescripcion from './components/img-description';
+import DbaEstandares from './components/dba';
 import { datos } from '../../core/services/data'; //importación de datos js//
 
 const Cursos = () => {
