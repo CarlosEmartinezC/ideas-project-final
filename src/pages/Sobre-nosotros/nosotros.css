@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background: #F0F0F0;
+    
+    
+}
+h1{
+    color: #A742CC;
+    font-family: 'Libre Baskerville';
+    text-align: center;
+    margin: 30px;
+    font-size: 60px;
+    
+}
+h2{
+    background: #A742CC;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville';
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+.imagen img{
+    margin: 35px;    
+}
+p{
+    
+    width: 60%;
+    font-family: "AwanZaman Regular";
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container2 h2{
+    background: #F2C499;
+    color: #000000;
+    font-family: 'Libre Baskerville';
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+.container2 p{
+    text-align: end;
+}
+.container3 h2{
+    background: #A742CC;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville';
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}

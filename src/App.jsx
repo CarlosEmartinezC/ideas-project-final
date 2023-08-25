@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 import Header from './core/layouts/header-components/header';
 import Footer from './core/layouts/footer-components/footer';
-import Cursos from './pages/Cursos/Cursos'
+import Nosotros from './pages/Sobre-nosotros/nosotros';
+
 function App() {
   return (
     <div>
       <Header />
-      <Slider />
-      <Cursos/>
-     
+      <Nosotros/>
       <Footer /> {}
     </div>
   );
