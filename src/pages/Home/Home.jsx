@@ -9,39 +9,24 @@ import imagen3 from './carrusel-3.jpg';
 const CarouselComponent = () => {
   return (
     <div className="carousel-container">
-      <Carousel
-        autoPlay
-        infiniteLoop
-        showThumbs={false}
-      >
-        <div className="carousel-item">
-          <img src={imagen1} alt="Imagen 1" />
-          <div className="image-overlay">
-            <div className="image-overlay-text">
-              La Fundacion Tejer Ideas es parte del Colectivo Nacional de Educación
-              STEM-CONASTEM. Desarrollamos un curso virtual certificado para docentes,
-              directivos y demas interesados. Tambien participamos con una organización
-              I Congreso Nacional de...
+      <div className="content-container">
+        <div className="image-container">
+          <Carousel autoPlay infiniteLoop showThumbs={false} showArrows={false}>
+            <div className="carousel-item">
+              <img src={imagen1} alt="Imagen 1" />
             </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <img src={imagen2} alt="Imagen 2" />
-          <div className="image-overlay">
-            <div className="image-overlay-text">
-              Texto para la imagen 2
+            <div className="carousel-item">
+              <img src={imagen2} alt="Imagen 2" />
             </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <img src={imagen3} alt="Imagen 3" />
-          <div className="image-overlay">
-            <div className="image-overlay-text">
-              Texto para la imagen 3
+            <div className="carousel-item">
+              <img src={imagen3} alt="Imagen 3" />
             </div>
-          </div>
+          </Carousel>
         </div>
-      </Carousel>
+        <div className="text-container">
+          <h1><span className="colored-text2">Tejemos </span> redes que potencian la innovacion, el desarrollo y el <span className="colored-text1">avance social</span> </h1>
+        </div>
+      </div>
     </div>
   );
 };

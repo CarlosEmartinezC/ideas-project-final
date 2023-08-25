@@ -1,6 +1,6 @@
 /* style prueba */
 
-#header {
+#Header {
   display: flex;
   align-items: center;
   height: 76px;
@@ -21,3 +21,15 @@
   padding-right: 120px;
   margin-right: 120px;
 }
+
+.mr-auto {
+  padding-left: 215px;
+  gap: 5.5rem;
+
+}
+
+.custom-navbar {
+  justify-content: space-between;
+  background-color: #fff;
+}
+
