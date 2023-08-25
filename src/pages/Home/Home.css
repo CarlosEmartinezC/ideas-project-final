@@ -39,6 +39,10 @@
   font-family: 'Libre Baskerville', serif;
 }
 
+.carousel .carousel-status {
+  display: none;
+}
+
 
 
 
