@@ -43,6 +43,26 @@
   display: none;
 }
 
+@media (max-width: 570px) {
+  .content-container {
+    flex-direction: column; 
+  }
+
+  .image-container {  
+    max-width: 50%; 
+  }
+  .text-container {
+    max-width: 60%; 
+  }
+
+  .text-container {
+    order: 2; 
+  }
+
+  .text-container h1 {
+    font-size: 15px; 
+  }
+}
 
 
 
