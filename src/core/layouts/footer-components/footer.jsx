@@ -18,7 +18,7 @@ const Footer = () => {
         {<img src={logo1} alt="logo-1" className="logo-1" />}
       </div>
       <div className="footer-info">
-        {"informacion de la fundacion"}
+        {"direccion@fundaciontejerideas.org"}
       </div>
       <div className="footer-buttons">
       <a href="/" className="footer-button">
