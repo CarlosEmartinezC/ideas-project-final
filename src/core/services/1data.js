@@ -1,6 +1,7 @@
-export const datos = [ 
-    ciencias [{
-    primer_Grado: {
+export const datos = [{
+    grado: 'primero',
+    materia: "ciencias",
+    content: {
             description:"",
             img: "",
             dba: [
@@ -93,8 +94,11 @@ export const datos = [
             ]
         }
     }, {
-        segundo_Grado: {
+        grado: 'segundo',
+        materia: "ciencias",
+        content: {
             description:"",
+            materia:"ciencias",
             img: "",
             dba: [
                 {
@@ -184,7 +188,9 @@ export const datos = [
             ]
         }
     },{ 
-        tercer_Grado: {
+        grado: 'tercero',
+        materia: "ciencias",
+        content: {
         description:"",
         img: "",
         dba: [
@@ -278,8 +284,11 @@ export const datos = [
         ]
     }
     }, {
-        Cuarto_grado:  {
+        grado: 'cuarto',
+        materia: "ciencias",
+        content: {
             description:"",
+            materia:"ciencias",
             img: "",
             dba: [
                 {
@@ -368,8 +377,11 @@ export const datos = [
             ]
         }
     },{
-        Quinto_grado:  {
+        grado: 'quinto',
+        materia: "ciencias",
+        content:  {
             description:"",
+            materia: "ciencias",
             img: "",
             dba: [
                 {
@@ -451,9 +463,11 @@ export const datos = [
                 }
             ]
         }
-    }],
-    matematicas[{
-        primer_Grado: {
+    },
+    {
+        grado: 'primero',
+        materia: "matematicas",
+        content: {
             description:"",
             img: "",
             dba: [
@@ -561,9 +575,12 @@ export const datos = [
             ]
         }
     }, {
-        segundo_Grado: {
+        grado: 'segundo',
+        materia: "matematicas",
+        content:  {
             description:"",
             img: "",
+            materia: "matematicas",
             dba: [
                 {
                     Id: 1,
@@ -744,9 +761,12 @@ export const datos = [
             ]
         }
     },{ 
-        tercer_Grado: {
+        grado: 'tercero',
+        materia: "matematicas",
+        content:  {
             description:"",
             img: "",
+            materia: "matematicas",
             dba: [
                 {
                     Id: 1,
@@ -954,9 +974,12 @@ export const datos = [
             ]
         }
     }, {
-        Cuarto_grado:  {
+        grado: 'cuarto',
+        materia: "matematicas",
+        content:  {
             description:"",
             img: "",
+            materia:"matematicas",
             dba: [ 
                 {
                     Id: 1,
@@ -1154,9 +1177,12 @@ export const datos = [
             ]
         }
     },{
-        Quinto_grado:  {
+        grado: 'quinto',
+        materia: "matematicas",
+        content:  {
             description:"",
             img: "",
+            materia:"matematicas", 
             dba: [ 
                 {
                     Id: 1,
@@ -1396,5 +1422,5 @@ export const datos = [
                 }
             ]
         }  
-    }]
+    }
 ]
