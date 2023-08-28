@@ -14,4 +14,23 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.select-buttons  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #A742CC;
+}
 
+.select-buttons .select-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.select-buttons .select-button:hover {
+  color: white;
+}
