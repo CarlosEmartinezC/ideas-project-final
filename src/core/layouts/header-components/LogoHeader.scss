@@ -2,4 +2,61 @@
     padding-left: 121px;
     margin-bottom: 11px;
     margin-top: 11px;
+    display: grid;
+    align-content: center;
+
+    @media (max-width: 575px) {
+        /* Estilos para teléfonos */
+        padding-left: 15px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+    
+      @media (min-width: 576px) and (max-width: 767px) {
+        /* Estilos para teléfonos en modo horizontal */
+        padding-left: 15px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+    
+      @media (min-width: 768px) and (max-width: 991px) {
+        /* Estilos para tabletas */
+        padding-left: 30px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+    
+      @media (min-width: 992px) and (max-width: 1199px) {
+        /* Estilos para pantallas de escritorio normales */
+        padding-left: 30px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+}
+
+#imgLogoHeader {
+    
+    @media (max-width: 575px) {
+        /* Estilos para teléfonos */
+        width: 90px;
+        height: auto;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        /* Estilos para teléfonos en modo horizontal */
+        width: 90px;
+        height: auto;
+      }
+    
+      @media (min-width: 768px) and (max-width: 991px) {
+        /* Estilos para tabletas */
+        width: 130px;
+        height: auto;
+      }
+    
+      @media (min-width: 992px) and (max-width: 1199px) {
+        /* Estilos para pantallas de escritorio normales */
+        width: 130px;
+        height: auto;
+      }
+
 }

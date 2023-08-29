@@ -1,6 +1,6 @@
-/* style prueba */
+/* styleHeader.scss */
 
-#Header {
+#header {
   display: flex;
   align-items: center;
   height: 76px;
@@ -10,11 +10,32 @@
   padding-left: 101px;
   background-color: #fff;
   /* Otros estilos según necesites */
+
+  @media (max-width: 575px) {
+    flex-direction: column; /* Cambia a disposición vertical */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    padding: 15px 20px; /* Ajusta el padding vertical y horizontal */
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    /* Estilos para teléfonos en modo horizontal */
+    padding: 15px 40px; /* Ajusta el padding vertical y horizontal */
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tabletas */
+    padding: 15px 60px; /* Ajusta el padding vertical y horizontal */
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para pantallas de escritorio normales */
+    padding: 15px 80px; /* Ajusta el padding vertical y horizontal */
+  }
 }
 
 #LogoHeader {
   height: 76px;
-  width: 128;
+  width: 158;
 }
 
 #BuscadorHeader {
@@ -22,14 +43,15 @@
   margin-right: 20px;
 }
 
-.mr-auto {
-  padding-left: 215px;
-  gap: 5.5rem;
+/* Estilos para los botones en pantallas pequeñas */
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 
+  @media (max-width: 767px) {
+    /* Ajusta el margen superior en teléfonos y tabletas */
+    margin-top: 20px;
+  }
 }
-
-.custom-navbar {
-  justify-content: space-between;
-  background-color: #fff;
-}
-
