@@ -11,20 +11,11 @@ import CarouselComponent from './pages/Home/Home';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Routes>
-          <Route path="/cursos" element={<Cursos />} />
-          <Route path="/cursos" element={<Cursos />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/carouselcomponent" element={<CarouselComponent />} />
-          <Route path="/nosotros" element={<Nosotros/>}/>
-          {/* Agrega más rutas para otras páginas */}
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div>
+      <Header />
+      {/* Content */}
+      <Footer /> 
+    </div>
   );
 }
 
