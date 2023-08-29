@@ -11,12 +11,14 @@ h1{
     text-align: center;
     margin: 30px;
     font-size: 60px;
+    font-weight: 400;
     
 }
 h2{
     background: #A742CC;
     color: #FFFFFF;
     font-family: 'Libre Baskerville';
+    font-weight: 400;
     padding: 15px;
     text-align: center;
     font-size: 35px;
@@ -41,6 +43,7 @@ p{
     background: #F2C499;
     color: #000000;
     font-family: 'Libre Baskerville';
+    font-weight: 400;
     padding: 15px;
     text-align: center;
     font-size: 35px;
@@ -55,4 +58,14 @@ p{
     padding: 15px;
     text-align: center;
     font-size: 35px;
+}
+
+@media screen and (max-width: 768px){
+    section *{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
 }
