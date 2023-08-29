@@ -5,9 +5,7 @@
   align-items: center;
   height: 76px;
   justify-content: space-between;
-  padding-bottom: 19px;
-  padding-top: 19px;
-  padding-left: 101px;
+  padding: 19px 20px; /* Ajusta el padding vertical y horizontal */
   background-color: #fff;
   /* Otros estilos según necesites */
 
@@ -35,12 +33,13 @@
 
 #LogoHeader {
   height: 76px;
-  width: 158;
+  width: 158px;
+
 }
 
 #BuscadorHeader {
-  padding-right: 20px;
-  margin-right: 20px;
+  padding-right: 120px;
+  margin-right: 120px;
 }
 
 /* Estilos para los botones en pantallas pequeñas */
