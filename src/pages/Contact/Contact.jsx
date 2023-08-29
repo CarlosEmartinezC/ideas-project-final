@@ -2,7 +2,7 @@ import './Contact.css';
 
 import React, { useRef, useState } from 'react';
 
-
+import Imagen from '../../recursos/contact1.png'
 import emailjs from 'emailjs-com';
 
 
@@ -33,38 +33,39 @@ const Contact = () => {
       };
       return (
         <div className='Contact'>
+         <img src={Imagen} alt='imagen1'></img>
         <section id="contact">
           <h5>Ponerse en contacto</h5><br/>
           <h5>
-         Recibiremos sus mensajes y responderemoslo antes posible<br/>
-          si se proporciona el correo electrónico válido
+         Recibiremos sus mensajes y responderemos lo antes posible<br/>
+          si se proporciona el correo electrónico válido.
           </h5>
-          <h2>Contáctame</h2>
+          <h2>Contáctanos</h2>
           <div className="container contact__container">
             
             <form ref={formRef} onSubmit={handleSubmit}>
               <input
                 type="text"
-                placeholder="Your Full Name"
+                placeholder="Nombre Completo"
                 name="user_name"
                 required
               />
               <input
                 type="text"
-                placeholder="Your Email"
+                placeholder="Correo electrónico"
                 name="user_email"
                 required
               />
               <textarea
-                placeholder="Your message"
+                placeholder="Mensaje"
                 rows="7"
                 name="message"
                 required
               ></textarea>
               <button type="submit" className="btn btn">
-                Send Message
+                Enviar mensaje
               </button>
-              {message && <span>gracias, por enviarnos tu mensaje:)</span>}
+              {message && <span>gracias, por enviarnos tu mensaje</span>}
             </form>
           </div>
         </section>
