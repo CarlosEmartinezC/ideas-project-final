@@ -12,13 +12,13 @@ const CarouselComponent = () => {
             <div className="content-container">
                 <div className="image-container">
                     <Carousel autoPlay infiniteLoop showThumbs={false} showArrows={false}>
-                        <div className="">
+                        <div className="container">
                             <img src={Imagen1} alt="" />
                         </div>
-                        <div className="">
+                        <div className="container">
                             <img src={Imagen2} alt="" />
                         </div>
-                        <div className="">
+                        <div className="container">
                             <img src={Imagen3} alt="" />
                         </div>
                     </Carousel>
