@@ -1,8 +1,8 @@
 export function Selectorbotton  ({ text, onClick }) {
 
-    return(
-        <button className="select-button" onClick={onclick}>
+        return (
+          <button className="selector-button" onClick={onClick}>
             {text}
-        </button>
-    )
-}
+          </button>
+        );
+      };

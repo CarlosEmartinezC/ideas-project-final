@@ -22,15 +22,16 @@
   background-color: #A742CC;
 }
 
-.select-buttons .select-button {
+.select-buttons .selector-button {
   margin: 10px;
   padding: 10px 20px;
-  background-color: transparent;
+  background: transparent;
   color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: larger;
 }
-.select-buttons .select-button:hover {
+.select-buttons .Selectorbotton:hover {
   color: white;
 }
