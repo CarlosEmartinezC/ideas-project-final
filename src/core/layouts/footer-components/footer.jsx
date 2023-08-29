@@ -24,7 +24,7 @@ const Footer = () => {
       <a href="#Home" className="footer-button">
           <FaHome />
         </a>
-        <button  className="footer-button" onClick={handleScrollToTop}>
+        <button href className="footer-button" onClick={handleScrollToTop}>
           <FaArrowCircleUp /> Ir arriba
         </button>
         <button className="footer-button" onClick={handleScrollToTop}>
