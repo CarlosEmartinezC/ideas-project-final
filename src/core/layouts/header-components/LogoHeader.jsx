@@ -6,7 +6,7 @@ import './LogoHeader.scss';
 const LogoHeader = () => {
   return (
     <div className="logoHeader" id="LogoHeader" >
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" id='imgLogoHeader'/>
     </div>
   );
 };
