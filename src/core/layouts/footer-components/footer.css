@@ -32,7 +32,7 @@
   flex: 3;
   text-align: center;
   font-size: 15px; /* Adjust font size */
-  font-family: Arial, sans-serif; /* Adjust font family */
+  font-family: 'Libre Baskerville', serif;
 }
 
 /* Styles for the buttons */
@@ -53,10 +53,8 @@
   padding: 8px 12px;
   border-radius: 5px;
   display: flex;
-  font-size: 12px; /* Adjust font size */
-  font-family: 'Libre Baskerville', serif; 
+  font-size: 12px; /* Adjust font size */ 
   align-items: center;
-  text-decoration: none;
 }
 
 /* Styles for buttons on small screens */
@@ -69,9 +67,15 @@
   }
 
   .footer-logo,
-  .footer-info,
   .footer-buttons {
     flex: auto;
     margin-bottom: 10px;
   }
+}
+
+@media (max-width: 880px) {
+  .footer-info{
+    font-size: 12px;
+  }
+
 }
