@@ -26,6 +26,7 @@ h2{
 article{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .imagen img{
     margin: 35px;
@@ -49,9 +50,7 @@ p{
     text-align: center;
     font-size: 35px;
 }
-.container2 p{
-    text-align: start;
-}
+
 
 .container3 h2{
     background: #A742CC;
@@ -120,6 +119,9 @@ p{
         text-align: center;
 
     }
+    img{
+        width: 330px;
+    }
     h1{
         font-size: 35px;
     }
@@ -136,4 +138,14 @@ p{
     .container3 h2{
         font-size: 25px;
     }
+    .imagenes .personaje1 h3{
+        font-size: 25px;
+    }
+    .imagenes .personaje2 h3{
+        font-size: 25px;
+    }
+    .imagenes .personaje3 h3{
+        font-size: 25px;
+    }
+
 }

@@ -7,6 +7,7 @@ import Cursos from './pages/Cursos/Cursos';
 import Contact from './pages/Contact/Contact';
 import CarouselComponent from './pages/Home/Home';
 
+
 function App() {
   return (
     <Router>
