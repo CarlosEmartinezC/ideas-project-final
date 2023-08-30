@@ -1,7 +1,6 @@
 import './Contact.css';
 
 import React, { useRef, useState } from 'react';
-
 import Imagen from '../../recursos/contact1.png'
 import emailjs from 'emailjs-com';
 
