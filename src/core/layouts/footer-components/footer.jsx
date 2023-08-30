@@ -21,7 +21,7 @@ const Footer = () => {
         {"direccion@fundaciontejerideas.org"}
       </div>
       <div className="footer-buttons">
-      <a href="/" className="footer-button">
+      <a href="./src/pages/Home/Home.jsx" className="footer-button">
           <FaHome />
         </a>
         <button className="footer-button" onClick={handleScrollToTop}>
