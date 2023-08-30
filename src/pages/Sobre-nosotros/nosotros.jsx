@@ -23,20 +23,35 @@ const Nosotros = () =>{
             <section className="container2">
                 <h2>Valores</h2>
                 <article>
-                    <p>Los valores que tenemos como fundación son: Colaboración, <br />empatia,creatividad, entusiasmo y rigor.</p>
-                    <div className="imagen">
+                <div className="imagen">
                         <img src={Img2} alt="" />
-                    </div>
+                    </div> 
+                        <p>Los valores que tenemos como fundación son: Colaboración, <br />empatia,creatividad, entusiasmo y rigor.</p>
+                    
                 </article>
             </section>
             <section className="container3">
                 <h2>Equipo fundador</h2>
                 <article>
                     
-                    <div className="imagen">
-                        <img src={Img3} alt="" />
-                        <img src={Img4} alt="" />
-                        <img src={Img5} alt="" />
+                    <div className="imagenes">
+                        <div className="personaje1">
+                            <img src={Img3} alt=""/>
+                            <h3>Oscar Ariza</h3>
+                            
+                        </div>
+                            <div className="personaje2">
+                                <img src={Img4} alt="" />
+                                <h3>Germán Rodríguez</h3>
+                                
+
+                            </div>
+                                <div className="personaje3">
+                                <img src={Img5} alt="" />
+                                <h3>Fabiola Grisales</h3>
+                                
+                                </div>
+                        
                     </div>
                 </article>
             </section>

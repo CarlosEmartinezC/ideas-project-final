@@ -6,6 +6,8 @@ body{overflow-x: hidden;
     width: 100%;
     margin: 0;
     padding: 0;}
+
+
 .Contact{
     width: 100%;
     position: relative;
@@ -17,10 +19,9 @@ body{overflow-x: hidden;
 
 .Contact img{
 position: absolute;
-top: 280px;
-left: 600px;
-
-height: 400px;
+top: 260px;
+left: 550px;
+height: 700px;
 }
 
 
@@ -28,21 +29,23 @@ height: 400px;
     position: relative;
     text-align:left;
     text-align: center;
-    left: 460px;
+    left: 650px;
     top: 90px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    font-size: 15px;
     padding: 10px;
    
 }
 
 .Contact h2{
     color: white;
-    background: #A742CC;
-    bottom: 150px;
-    text-align: center;
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    width: 170%;
+    background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    bottom: 18%;
 }
 
 
@@ -115,18 +118,30 @@ form span {
 
 form {
     position: relative;
-    bottom: 40px;
-    left: 70px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    background: rgb(253, 251, 251);
+    padding: 90px;
+    justify-content: center;
+    bottom: 80px;
+    left: 90px;
     width: 300px;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    cursor: pointer;
     
+}
+
+form:hover{
+    background: rgb(149, 144, 134, 0.1);
 }
 
 input,
 textarea {
     width: 100%;
+    justify-content: center;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background:transparent;

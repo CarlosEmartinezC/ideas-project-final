@@ -23,7 +23,7 @@ const Header = () => {
       <Link to="/contact">
       <BotonHeader  text="Contacto" />
       </Link>
-      <BuscadorHeader id="BuscadorHeader" />
+      
     </header>
   );
 };
