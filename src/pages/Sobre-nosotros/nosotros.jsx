@@ -23,10 +23,11 @@ const nosotros = () =>{
             <section className="container2">
                 <h2>Valores</h2>
                 <article>
-                    <p>Los valores que tenemos como fundación son: Colaboración, <br />empatia,creatividad, entusiasmo y rigor.</p>
-                    <div className="imagen">
+                <div className="imagen">
                         <img src={Img2} alt="" />
-                    </div>
+                    </div> 
+                        <p>Los valores que tenemos como fundación son: Colaboración, <br />empatia,creatividad, entusiasmo y rigor.</p>
+                    
                 </article>
             </section>
             <section className="container3">
@@ -34,7 +35,7 @@ const nosotros = () =>{
                 <article>
                     
                     <div className="imagen">
-                        <img src={Img3} alt="" />
+                        <img src={Img3} alt=""/>
                         <img src={Img4} alt="" />
                         <img src={Img5} alt="" />
                     </div>

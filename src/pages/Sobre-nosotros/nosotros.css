@@ -49,7 +49,7 @@ p{
     font-size: 35px;
 }
 .container2 p{
-    text-align: end;
+    text-align: start;
 }
 .container3 h2{
     background: #A742CC;
@@ -67,5 +67,21 @@ p{
         justify-content: center;
         text-align: center;
 
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 25px;
+        
+    }
+    .container2 h2{
+        font-size: 25px;
+    }
+    .container3 h2{
+        font-size: 25px;
     }
 }
