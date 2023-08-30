@@ -51,6 +51,8 @@
 /* Styles for buttons on small screens */
 @media (max-width: 768px) {
   .footer {
+    top: 400px;
+    width: 430px;
     flex-direction: column;
     text-align: center;
   }

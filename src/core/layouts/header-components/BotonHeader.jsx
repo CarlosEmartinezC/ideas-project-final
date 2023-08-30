@@ -1,8 +1,9 @@
 import React from 'react';
+import './BotonHeader.scss';
 
 const BotonHeader = ({ text, onClick }) => {
   return (
-    <button className="boton" onClick={onClick}>
+    <button className="BotonHeader" onClick={onClick}>
       {text}
     </button>
   );

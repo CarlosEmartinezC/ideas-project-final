@@ -29,4 +29,3 @@ const CarouselComponent = () => {
 }
 
 export default CarouselComponent;
-

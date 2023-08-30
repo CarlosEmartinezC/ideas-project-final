@@ -6,7 +6,7 @@ import Img3 from "../../recursos/persona1-09.jpg";
 import Img4 from "../../recursos/persona2-09.jpg";
 import Img5 from "../../recursos/persona3-09.jpg";
 
-const nosotros = () =>{
+const Nosotros = () =>{
     return(
         <body>
             <h1>Sobre nosotros</h1>
@@ -45,6 +45,7 @@ const nosotros = () =>{
     )
 }
 
+export default Nosotros;
 
 
 
@@ -57,8 +58,3 @@ const nosotros = () =>{
 
 
 
-
-
-
-
-export default nosotros
