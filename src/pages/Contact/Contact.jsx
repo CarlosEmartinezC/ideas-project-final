@@ -34,14 +34,14 @@ const Contact = () => {
         <div className='Contact'>
          <img src={Imagen} alt='imagen1'></img>
         <section id="contact">
-          
+        <h2>Contáctanos</h2>
           <h5>
           Estamos aquí para escucharte.<br/>
            Tu mensaje es importante para nosotros y haremos todo lo posible por responder tan pronto como sea posible.<br/>
            Por favor, asegúrate de proporcionar un correo electrónico válido para que podamos ponernos en contacto contigo.<br/>
             ¡Gracias por ayudarnos a mejorar!
           </h5>
-          <h2>Contáctanos</h2>
+        
           <div className="container contact__container">
             
             <form ref={formRef} onSubmit={handleSubmit}>

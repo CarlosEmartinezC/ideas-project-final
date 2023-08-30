@@ -30,7 +30,7 @@ height: 700px;
     text-align:left;
     text-align: center;
     left: 650px;
-    top: 90px;
+    top: 50px;
     font-family: 'Inter';
     font-size: 15px;
     padding: 10px;
@@ -40,12 +40,13 @@ height: 700px;
 .Contact h2{
     color: white;
     background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
-    box-shadow: 0 0 5px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200%;
-    bottom: 18%;
+    box-shadow: 0 0 2px black;
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    width: 190%;
 }
 
 
