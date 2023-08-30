@@ -49,6 +49,7 @@
 @media (max-width: 570px) {
   .content-container {
     flex-direction: column; 
+    margin-top: 35%;
   }
 
   .image-container {  
