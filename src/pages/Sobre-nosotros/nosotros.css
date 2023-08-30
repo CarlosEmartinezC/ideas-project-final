@@ -28,7 +28,8 @@ article{
     justify-content: center;
 }
 .imagen img{
-    margin: 35px;    
+    margin: 35px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.200); 
 }
 p{
     
@@ -51,6 +52,7 @@ p{
 .container2 p{
     text-align: start;
 }
+
 .container3 h2{
     background: #A742CC;
     color: #FFFFFF;
@@ -58,7 +60,57 @@ p{
     padding: 15px;
     text-align: center;
     font-size: 35px;
+
 }
+.imagenes{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes img{
+    margin: 10px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.200); 
+}
+.imagenes .personaje1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes .personaje1 h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+.imagenes .personaje2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes .personaje2 h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.imagenes .personaje3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes .personaje3 h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-size: 30px;
+}
+
 
 @media screen and (max-width: 768px){
     section *{

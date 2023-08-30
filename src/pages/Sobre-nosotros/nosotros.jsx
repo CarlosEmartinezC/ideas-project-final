@@ -34,10 +34,24 @@ const Nosotros = () =>{
                 <h2>Equipo fundador</h2>
                 <article>
                     
-                    <div className="imagen">
-                        <img src={Img3} alt=""/>
-                        <img src={Img4} alt="" />
-                        <img src={Img5} alt="" />
+                    <div className="imagenes">
+                        <div className="personaje1">
+                            <img src={Img3} alt=""/>
+                            <h3>Oscar Ariza</h3>
+                            
+                        </div>
+                            <div className="personaje2">
+                                <img src={Img4} alt="" />
+                                <h3>Germán Rodríguez</h3>
+                                
+
+                            </div>
+                                <div className="personaje3">
+                                <img src={Img5} alt="" />
+                                <h3>Fabiola Grisales</h3>
+                                
+                                </div>
+                        
                     </div>
                 </article>
             </section>
