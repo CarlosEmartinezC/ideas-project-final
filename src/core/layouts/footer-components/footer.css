@@ -30,11 +30,12 @@
 /* Styles for the information */
 .footer-info {
   flex: 4;
+}
+.footer-info p{
   text-align: center;
   font-size: 15px; /* Adjust font size */
   font-family: 'Libre Baskerville', serif;
 }
-
 /* Styles for the buttons */
 .footer-buttons {
   flex: 1; /* Equal division */
@@ -74,7 +75,7 @@
 }
 
 @media (max-width: 880px) {
-  .footer-info{
+  .footer-info p{
     font-size: 12px;
   }
 
