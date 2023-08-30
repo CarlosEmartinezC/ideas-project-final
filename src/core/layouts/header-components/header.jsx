@@ -14,8 +14,12 @@ const Header = () => {
       <Link to="/carouselcomponent">
       <BotonHeader  text="Inicio"/>
       </Link>
-      <BotonHeader  text="Sobre"/>
+      <Link to="/Nosotros">
+      <BotonHeader  text="Sobre Nosotros"/>
+      </Link>
+      <Link to="/Curso">
       <BotonHeader  text="Temáticas" />
+      </Link>
       <Link to="/contact">
       <BotonHeader  text="Contacto" />
       </Link>
