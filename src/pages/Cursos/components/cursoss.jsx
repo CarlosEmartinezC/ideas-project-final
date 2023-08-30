@@ -1,27 +1,44 @@
-import React from "react";
-import '../components/cursoss.css'
-import Buttons from "../../Cursos/components/componentes-cursoss/button-cursoss.jsx"
-const Cursoss = () => {
-    const handleBotonClick = (ruta) => {
-      // Lógica para manejar la redirección
-      // Puedes usar react-router-dom para la navegación entre páginas
-    };
+import React, {useState,} from "react"; 
+import '../components/cursoss.css';
+import Buttons from "../../Cursos/components/componentes-cursoss/button-cursoss.jsx";
+import { Selectorbotton } from "../../Cursos/components/componentes-cursoss/button-materia.jsx";
+import data from '../../../core/services/data.json';
+import FilteredContent from "./FilteredContent";
+function Cursoss(){
+  const [selectedMateria, setselectedMateria] = useState(null);
+  const [selectedGrado, setselectedGrado] = useState(null);
 
-    return(
-        <>
-        <div className="cursos">
-        
-      <Buttons text="Primer Grado" onClick={() => handleBotonClick('/Primer Grado')}  />
-      <Buttons text="Segundo Grado" onClick={() => handleBotonClick('/Segundo Grado')} />
-      <Buttons text="Tercer Grado" onClick={() => handleBotonClick('/Tercer Grado')} />
-      <Buttons text="Cuarto Grado" onClick={() => handleBotonClick('/Cuarto Grado')} />
-      <Buttons text="Quinto Grado" onClick={() => handleBotonClick('/Quinto Grado')} />
-      
-      
-        </div>
-        </>
-    );
+  const SelectMateria = (materia) => {
+    setselectedMateria(materia);
+    //console.log("Select Materia", materia)
+    setselectedGrado(null); // clean the select of grade al cambiar la selection
+  };
+  const selectedMateriaData = data.find((item) => item.materia === selectedMateria);
+  const selectedGradoData = selectedMateriaData && selectedMateriaData.grados.find((grado) => grado.grado === selectedGrado);
+  const SelectedGrado = (grado) => {
+    setselectedGrado(grado);
 };
-
-
+//
+const filteredGradoData = selectedMateriaData ? selectedMateriaData.grados : [];
+  return(
+    <>
+      <main className="select-buttons">
+        <Selectorbotton text="Matemáticas" onClick={() => SelectMateria( "matematicas")}/>
+        <Selectorbotton text="Ciencias" onClick={() => SelectMateria("ciencias")}/>
+      </main>
+      <div className="cursos">
+      {filteredGradoData.map((gradoItem) => (
+      <Buttons
+        key={gradoItem.grado}
+        text={`Grado ${gradoItem.grado}`}
+        onClick={() => SelectedGrado(gradoItem.grado)}
+      />
+        ))}
+      </div>
+      {selectedMateriaData && selectedGrado !== null && (
+        <FilteredContent content={selectedGradoData.content}/>
+      )}
+    </>
+   );
+};
 export default Cursoss;

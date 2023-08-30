@@ -1,9 +1,8 @@
-
 import React from "react";
 
-const BotonHeader = ({ text, onClick }) =>{
+const BotonHeader = ({ text, onClick  }) =>{
     return(
-        <button className="boton" onClick={onclick}>
+        <button className="boton" onClick={onClick} >
             {text}
         </button>
     )
