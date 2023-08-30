@@ -1,7 +1,7 @@
 import React, {useState,} from "react"; 
-import '../components/cursoss.css'
-import Buttons from "../../Cursos/components/componentes-cursoss/button-cursoss.jsx"
-import { Selectorbotton } from "../../Cursos/components/componentes-cursoss/button-materia.jsx"
+import '../components/cursoss.css';
+import Buttons from "../../Cursos/components/componentes-cursoss/button-cursoss.jsx";
+import { Selectorbotton } from "../../Cursos/components/componentes-cursoss/button-materia.jsx";
 import data from '../../../core/services/data.json';
 import FilteredContent from "./FilteredContent";
 function Cursoss(){
@@ -20,26 +20,25 @@ function Cursoss(){
 };
 //
 const filteredGradoData = selectedMateriaData ? selectedMateriaData.grados : [];
-    return(
-        <>
-          <main className="select-buttons">
-            <Selectorbotton text="Matemáticas" onClick={() => SelectMateria( "matematicas")}/>
-            <Selectorbotton text="Ciencias" onClick={() => SelectMateria("ciencias")}/>
-          </main>
-
-          <div className="cursos">
-          {filteredGradoData.map((gradoItem) => (
-          <Buttons
-            key={gradoItem.grado}
-            text={`Grado ${gradoItem.grado}`}
-            onClick={() => SelectedGrado(gradoItem.grado)}
-          />
-            ))}
-          </div>
-          {selectedMateriaData && selectedGrado !== null && (
+  return(
+    <>
+      <main className="select-buttons">
+        <Selectorbotton text="Matemáticas" onClick={() => SelectMateria( "matematicas")}/>
+        <Selectorbotton text="Ciencias" onClick={() => SelectMateria("ciencias")}/>
+      </main>
+      <div className="cursos">
+      {filteredGradoData.map((gradoItem) => (
+      <Buttons
+        key={gradoItem.grado}
+        text={`Grado ${gradoItem.grado}`}
+        onClick={() => SelectedGrado(gradoItem.grado)}
+      />
+        ))}
+      </div>
+      {selectedMateriaData && selectedGrado !== null && (
         <FilteredContent content={selectedGradoData.content}/>
       )}
-      </>
-    );
+    </>
+   );
 };
 export default Cursoss;
