@@ -2,24 +2,28 @@ import React from 'react';
 import LogoHeader from './LogoHeader';
 import BuscadorHeader from './BuscadorHeader';
 import BotonHeader from './BotonHeader';
-
+import './styleHeader.scss';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const handleBotonClick = (ruta) => {
-    // Lógica para manejar la redirección
-    // Puedes usar react-router-dom para la navegación entre páginas
-  };
-
+  
   return (
     
-    <header className="header">
-      <LogoHeader />
-      <BotonHeader text="Inicio" onClick={() => handleBotonClick('/inicio')} />
-      <BotonHeader text="Sobre" onClick={() => handleBotonClick('/sobre')} />
-      <BotonHeader text="Temáticas" onClick={() => handleBotonClick('/tematicas')} />
-      <BotonHeader text="Cursos" onClick={() => handleBotonClick('/cursos')} />
-      <BotonHeader text="Contacto" onClick={() => handleBotonClick('/contacto')} />
-      <BuscadorHeader />
+    <header className="header" id='header' >
+      <LogoHeader id="LogoHeader" />
+      <Link to="/carouselcomponent">
+      <BotonHeader  text="Inicio"/>
+      </Link>
+      <Link to="/Nosotros">
+      <BotonHeader  text="Sobre Nosotros"/>
+      </Link>
+      <Link to="/Curso">
+      <BotonHeader  text="Temáticas" />
+      </Link>
+      <Link to="/contact">
+      <BotonHeader  text="Contacto" />
+      </Link>
+      
     </header>
   );
 };

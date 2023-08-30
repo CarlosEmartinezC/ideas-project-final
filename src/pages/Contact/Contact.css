@@ -1,19 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Bad+Script&family=Hind+Madurai:wght@300&family=Inter:wght@100&family=League+Gothic&family=Libre+Baskerville&family=Montserrat:wght@100&family=Noto+Serif&display=swap');
+
+
+body{overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;}
+
+
 .Contact{
+    width: 100%;
     position: relative;
     bottom: 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0px;  
 }
+
+
+.Contact img{
+position: absolute;
+top: 260px;
+left: 550px;
+height: 700px;
+}
+
 
 .Contact h5{
     position: relative;
-    top: 30px;
+    text-align:left;
+    text-align: center;
+    left: 650px;
+    top: 90px;
+    font-family: 'Inter';
+    font-size: 15px;
+    padding: 10px;
+   
 }
 
 .Contact h2{
-    position: relative;
-    top: 40px;
+    color: white;
+    background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    bottom: 18%;
 }
 
 
@@ -27,26 +59,28 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
     gap: 1.9rem;
 }
 
 .contact__option {
     position: relative;
+    top: 150px;
+    left: 450px;
     width: 200px;
     right: 100px;
     background: transparent;
-    padding: 1.2rem;
+    padding: 1.6rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid rgb(19, 19, 19);
     transition: var(--transition);
     cursor: pointer;
 }
 
 .contact__option:hover {
     background: transparent;
-    border-color: white;
+    border-color: rgb(14, 13, 13);
 }
 
 .contact__option-icon {
@@ -59,14 +93,23 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    text-align: center;
+    color: #A742CC;
 }
 
 .contact__option h5 {
+    position: relative;
+    
     color: var(--color-light);
+    text-align: center;
+    font-size: 0.9rem;
+  
 }
 
 .contact__option h4 {
-    font-weight: 500;
+    font-family:'Inter', sans-serif ;
+    font-size: 14px;
+
 }
 
 form span {
@@ -74,18 +117,35 @@ form span {
 }
 
 form {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    background: rgb(253, 251, 251);
+    padding: 90px;
+    justify-content: center;
+    bottom: 80px;
+    left: 90px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    cursor: pointer;
+    
+}
+
+form:hover{
+    background: rgb(149, 144, 134, 0.1);
 }
 
 input,
 textarea {
     width: 100%;
+    justify-content: center;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid white;
+    background:transparent;
+    border: 2px solid rgb(16, 15, 15);
     resize: none;
     color: var(--color-white);
 }
@@ -99,3 +159,51 @@ h2{
     position: relative;
     text-align: center;
 }
+
+.btn{
+    position: relative;
+    left: 30px;
+    background: wheat;
+    box-shadow: 0 0 2px rgb(14, 13, 13, 0.2);
+    border-radius: 5px;
+    color: black;
+}
+
+.btn:hover{
+    background: #F3C49A;
+    color: black;
+   
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .Contact img {
+      top: 350px;
+      left: 50px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .Contact h5{
+        left: 0px;
+        bottom: 40px;
+        width: 100%;
+    }
+    .contact__option,
+    form {
+        top: 370px;
+      right: 80px;
+      width: 90%;
+    }
+  
+    .container.contact__container {
+      grid-template-columns: 100%;
+    }
+
+    
+.Contact h2{
+    bottom: 200px;
+    width: 520px;
+}
+
+  }
