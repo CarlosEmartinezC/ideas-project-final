@@ -20,19 +20,19 @@ const Footer = () => {
         <img src={logo1} alt="logo-1" className="logo-1" />
       </div>
       <div className="footer-info">
-      <p>{"direccion@fundaciontejerideas.org"}</p>
+        <p>{"direccion@fundaciontejerideas.org"}</p>
         <p>Fundación Tejer Ideas. Todos los derechos reservados</p>
-        <p>©2023</p> 
+        <p>©2023</p>
       </div>
       <div className="footer-buttons">
         <RouterLink to="/carouselcomponent" className="footer-button">
-          <FaHome />
+          <FaHome className="purple-icon" />
         </RouterLink>
         <button className="footer-button" onClick={handleScrollToTop}>
-          <FaArrowCircleUp /> Ir arriba
+          <FaArrowCircleUp className="purple-icon" /> 
         </button>
         <RouterLink to="/contact" className="footer-button">
-          <FaPhone /> contacto
+          <FaPhone className="purple-icon" /> 
         </RouterLink>
       </div>
     </footer>
@@ -40,3 +40,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
