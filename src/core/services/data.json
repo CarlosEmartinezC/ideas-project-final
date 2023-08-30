@@ -85,15 +85,14 @@
                         ], 
                     "estandares": [
                             {
-                                "curso": "primer",
+                                "curso": "Primer",
+                                "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg"
+                            },{
+                                "curso": "Segundo",
                                 "img": " "
                             },{
-                                "curso": "segundo",
-                                "img": ""
-                
-                            },{
-                                "curso": "tercero",
-                                "img": ""
+                                "curso": "Tercero",
+                                "img": " "
                             }
                         ]}
                 ]
@@ -178,15 +177,15 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg"
                     },{
-                        "curso": "segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": " "
         
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": " "
                     }
                 ]
             }
@@ -275,15 +274,15 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg"
+                    },{
+                        "curso": "Segundo",
                         "img": " "
+        
                     },{
-                        "curso": "segundo",
-                        "img": ""
-                    
-                    },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": "https://i.ibb.co/CH6B1Ny/matematicas.jpg"
                     }
                 ]
             }
@@ -556,14 +555,14 @@
                 ], 
                 "estandares": [
                     {
-                        "curso":"primero",
-                        "img": ""
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg"
                     },{
-                        "curso":"segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": " "
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": " "
                     }
                 ]
             }]
@@ -747,15 +746,15 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg"
                     },{
-                        "curso": "segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": " "
         
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": " "
                     }
                 ]
             }]
@@ -955,15 +954,15 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg"
                     },{
-                        "curso": "segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": " "
         
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": " "
                     }
                 ]
             }]

@@ -47,8 +47,8 @@ const FilteredContent = ({ content, dba }) => {
         <div className="estandar-items">
           {EstantItems.map((estandar, index) => (
             <div key={index}>
-              <p>Curso: {estandar.curso}</p>
               {estandar.img && <img src={estandar.img} alt="Imagen" />}
+              <p>{estandar.curso} grado</p>
             </div>
           ))}
         </div>
