@@ -67,7 +67,13 @@ const Contact = () => {
               <button type="submit" className="btn btn">
                 Enviar mensaje
               </button>
-              {message && <span>gracias, por enviarnos tu mensaje</span>}
+              {message && <span>gracias, por enviarnos tu mensaje<br/>
+              Tu privacidad es esencial para nosotros.<br/>
+               En Fundacion tejer ideas, utilizamos tu correo electrónico solo<br/>
+                para los propósitos específicos que nos proporcionaste.<br/>
+                 No vendemos ni compartimos tu información.<br/>
+                 Siempre respetamos las regulaciones de privacidad y<br/>
+                  te mantendremos informado si usamos tus datos para nuevos fines.</span>}
             </form>
           </div>
         </section>
