@@ -43,14 +43,12 @@ const Nosotros = () =>{
                                 <img src={Img4} alt="" />
                                 <h3>Germán Rodríguez</h3>
                                 
-
                             </div>
                                 <div className="personaje3">
                                 <img src={Img5} alt="" />
                                 <h3>Fabiola Grisales</h3>
                                 
                                 </div>
-                        
                     </div>
                 </article>
             </section>

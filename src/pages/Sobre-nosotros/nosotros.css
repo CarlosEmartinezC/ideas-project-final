@@ -16,8 +16,9 @@ h1{
     
 }
 h2{
-    background: #A742CC;
-    color: #FFFFFF;
+    color: white;
+    background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
+    box-shadow: 0 0 2px black;
     font-family: 'Libre Baskerville';
     font-weight: 400;
     padding: 15px;
@@ -43,7 +44,7 @@ p{
     display: flex;
 }
 .container2 h2{
-    background: #F2C499;
+    background: linear-gradient(60deg, #ed9747,#F2C499,#ed9747);
     color: #000000;
     font-family: 'Libre Baskerville';
     font-weight: 400;
@@ -54,7 +55,7 @@ p{
 
 
 .container3 h2{
-    background: #A742CC;
+    background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
     color: #FFFFFF;
     font-family: 'Libre Baskerville';
     padding: 15px;
@@ -120,33 +121,5 @@ p{
         text-align: center;
 
     }
-    img{
-        width: 330px;
-    }
-    h1{
-        font-size: 35px;
-    }
-    h2{
-        font-size: 25px;
-    }
-    p{
-        font-size: 25px;
-        
-    }
-    .container2 h2{
-        font-size: 25px;
-    }
-    .container3 h2{
-        font-size: 25px;
-    }
-    .imagenes .personaje1 h3{
-        font-size: 25px;
-    }
-    .imagenes .personaje2 h3{
-        font-size: 25px;
-    }
-    .imagenes .personaje3 h3{
-        font-size: 25px;
-    }
-
 }
+
