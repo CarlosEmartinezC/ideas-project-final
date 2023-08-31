@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body{
     background: #F0F0F0;
@@ -35,9 +36,9 @@ article{
 }
 p{
     
-    width: 60%;
-    font-family: "AwanZaman Regular";
-    font-size: 40px;
+    width: 65%;
+    font-family: "Inter";
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -120,33 +121,32 @@ p{
         text-align: center;
 
     }
-    img{
-        width: 330px;
-    }
     h1{
         font-size: 35px;
     }
     h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     p{
-        font-size: 25px;
-        
+        font-size: 22px;
+    }
+    img{
+        width: 320px;
     }
     .container2 h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     .container3 h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     .imagenes .personaje1 h3{
-        font-size: 25px;
+        font-size: 26px;
     }
     .imagenes .personaje2 h3{
-        font-size: 25px;
+        font-size: 26px;
     }
     .imagenes .personaje3 h3{
-        font-size: 25px;
+        font-size: 26px;
     }
-
 }
+

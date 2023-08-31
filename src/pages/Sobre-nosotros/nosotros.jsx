@@ -16,8 +16,7 @@ const Nosotros = () =>{
                     <div className="imagen">
                         <img src={Img} alt="" />
                     </div>
-                    
-                    <p>Tejer redes de aprendizaje para que las comunidades impulsen sus ideas: <br />Capacidad de inovación, desarrollo y avance social.</p>
+                    <p>Tejer redes de aprendizaje para que las comunidades impulsen sus ideas: Capacidad de inovación, desarrollo y avance social.</p>
                 </article>
             </section>
             <section className="container2">
@@ -26,7 +25,7 @@ const Nosotros = () =>{
                 <div className="imagen">
                         <img src={Img2} alt="" />
                     </div> 
-                        <p>Los valores que tenemos como fundación son: Colaboración, <br />empatia,creatividad, entusiasmo y rigor.</p>
+                        <p>Los valores que tenemos como fundación son: Colaboración, empatia, creatividad, entusiasmo y rigor.</p>
                     
                 </article>
             </section>
@@ -44,14 +43,12 @@ const Nosotros = () =>{
                                 <img src={Img4} alt="" />
                                 <h3>Germán Rodríguez</h3>
                                 
-
                             </div>
                                 <div className="personaje3">
                                 <img src={Img5} alt="" />
                                 <h3>Fabiola Grisales</h3>
                                 
                                 </div>
-                        
                     </div>
                 </article>
             </section>

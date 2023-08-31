@@ -28,11 +28,12 @@
   }
   
   .menu-button {
-    position: relative;
+    position: absolute;
     align-content: center;
     top: 20px;
     display: flex;
     right: 80px;
+    padding-right: 10px;
     z-index: 1;
     flex-wrap: nowrap;
     justify-content: center;
