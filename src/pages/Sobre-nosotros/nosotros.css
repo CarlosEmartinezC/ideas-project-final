@@ -15,8 +15,9 @@ h1{
     
 }
 h2{
-    background: #A742CC;
-    color: #FFFFFF;
+    color: white;
+    background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
+    box-shadow: 0 0 2px black;
     font-family: 'Libre Baskerville';
     font-weight: 400;
     padding: 15px;
@@ -26,9 +27,11 @@ h2{
 article{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .imagen img{
-    margin: 35px;    
+    margin: 35px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.200); 
 }
 p{
     
@@ -40,7 +43,7 @@ p{
     display: flex;
 }
 .container2 h2{
-    background: #F2C499;
+    background: linear-gradient(60deg, #ed9747,#F2C499,#ed9747);
     color: #000000;
     font-family: 'Libre Baskerville';
     font-weight: 400;
@@ -48,17 +51,66 @@ p{
     text-align: center;
     font-size: 35px;
 }
-.container2 p{
-    text-align: end;
-}
+
+
 .container3 h2{
-    background: #A742CC;
+    background:linear-gradient(90deg, #722b8c, #A742CC,#6d1c8b);
     color: #FFFFFF;
     font-family: 'Libre Baskerville';
     padding: 15px;
     text-align: center;
     font-size: 35px;
+
 }
+.imagenes{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes img{
+    margin: 10px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.200); 
+}
+.imagenes .personaje1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes .personaje1 h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+.imagenes .personaje2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes .personaje2 h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.imagenes .personaje3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes .personaje3 h3{
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-size: 30px;
+}
+
 
 @media screen and (max-width: 768px){
     section *{
@@ -68,4 +120,33 @@ p{
         text-align: center;
 
     }
+    img{
+        width: 330px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 25px;
+        
+    }
+    .container2 h2{
+        font-size: 25px;
+    }
+    .container3 h2{
+        font-size: 25px;
+    }
+    .imagenes .personaje1 h3{
+        font-size: 25px;
+    }
+    .imagenes .personaje2 h3{
+        font-size: 25px;
+    }
+    .imagenes .personaje3 h3{
+        font-size: 25px;
+    }
+
 }
