@@ -121,5 +121,32 @@ p{
         text-align: center;
 
     }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 22px;
+    }
+    img{
+        width: 320px;
+    }
+    .container2 h2{
+        font-size: 30px;
+    }
+    .container3 h2{
+        font-size: 30px;
+    }
+    .imagenes .personaje1 h3{
+        font-size: 26px;
+    }
+    .imagenes .personaje2 h3{
+        font-size: 26px;
+    }
+    .imagenes .personaje3 h3{
+        font-size: 26px;
+    }
 }
 
