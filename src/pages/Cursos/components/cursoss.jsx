@@ -20,19 +20,22 @@ function Cursoss(){
 };
 //
 const filteredGradoData = selectedMateriaData ? selectedMateriaData.grados : [];
+//cambio de color del boton selecionado en grado
+const [ActiveButton, SetActiveButton] = useState(null);
+const handleButtonNClick = (index) => {
+  SetActiveButton(index)
+  console.log(ActiveButton);
+}
   return(
     <>
       <main className="select-buttons">
-        <Selectorbotton text="Matemáticas" onClick={() => SelectMateria( "matematicas")}/>
-        <Selectorbotton text="Ciencias" onClick={() => SelectMateria("ciencias")}/>
+        <Selectorbotton id="matematica" text="Matemáticas" onClick={() => SelectMateria( "matematicas")}/>
+        <Selectorbotton id="cienci" text="Ciencias" onClick={() => SelectMateria("ciencias")}/>
       </main>
       <div className="cursos">
-      {filteredGradoData.map((gradoItem) => (
-      <Buttons
-        key={gradoItem.grado}
-        text={`Grado ${gradoItem.grado}`}
-        onClick={() => SelectedGrado(gradoItem.grado)}
-      />
+      {filteredGradoData.map((gradoItem, index) => (
+      <Buttons key={gradoItem.grado} text={`Grado ${gradoItem.grado}`} onClick={() => {SelectedGrado(gradoItem.grado); handleButtonNClick(index);}}
+      className={ActiveButton === index ? "colorBlack": "ColorWhite"}/>
         ))}
       </div>
       {selectedMateriaData && selectedGrado !== null && (
