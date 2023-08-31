@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body{
     background: #F0F0F0;
@@ -34,9 +35,9 @@ article{
 }
 p{
     
-    width: 60%;
-    font-family: "AwanZaman Regular";
-    font-size: 40px;
+    width: 65%;
+    font-family: "Inter";
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     display: flex;
