@@ -8,7 +8,7 @@ import ESTANTItems from "../components/Estandares.jsx";
 const FilteredContent = ({ content, dba }) => {
   const [showDBA, setShowDBA] = useState(true);
   if (!content || content.length === 0) {
-    return null; // Manejar el caso de contenidos no válidos o vacíos
+    return null;
   }
 
   const { description, img, info } = content[0];

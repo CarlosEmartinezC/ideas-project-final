@@ -10,17 +10,16 @@ function Cursoss(){
 
   const SelectMateria = (materia) => {
     setselectedMateria(materia);
-    //console.log("Select Materia", materia)
-    setselectedGrado(null); // clean the select of grade al cambiar la selection
+    setselectedGrado(null); 
   };
   const selectedMateriaData = data.find((item) => item.materia === selectedMateria);
   const selectedGradoData = selectedMateriaData && selectedMateriaData.grados.find((grado) => grado.grado === selectedGrado);
   const SelectedGrado = (grado) => {
     setselectedGrado(grado);
 };
-//
+
 const filteredGradoData = selectedMateriaData ? selectedMateriaData.grados : [];
-//cambio de color del boton selecionado en grado
+
 const [ActiveButton, SetActiveButton] = useState(null);
 const handleButtonNClick = (index) => {
   SetActiveButton(index)
