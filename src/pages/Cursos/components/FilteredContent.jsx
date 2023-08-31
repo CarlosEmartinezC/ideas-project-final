@@ -1,57 +1,33 @@
 import React, {useState} from "react";
 import { Selectorbotton } from "../../Cursos/components/componentes-cursoss/button-materia.jsx";
 import '../components/cursoss.css';
+import '../components/FilteredContent.css';
+import DBAItems from "../components/dba";
+import ESTANTItems from "../components/Estandares.jsx";
 
 const FilteredContent = ({ content, dba }) => {
   const [showDBA, setShowDBA] = useState(true);
   if (!content || content.length === 0) {
-    return null; // Manejar el caso de contenidos no válidos o vacíos
+    return null;
   }
 
-  const { description, img } = content[0];
+  const { description, img, info } = content[0];
   const dbaItems = content[0].dba;
-  console.log(showDBA);
   const EstantItems = content[0].estandares;
-  console.log(EstantItems);
-  console.log(dbaItems);
   return (
     <>
       <div className="filtered-content">
-        <p>Descripción: {description}</p>
-          {img && <img src={img} alt="Imagen" />}
+      {img && <img className="filtered-content-image" src={img} alt={info}/>}
+        <p className="filtered-content ">{description}</p>
       </div>
-      <main className="select-buttons">
+      <main className="select-buttons inter">
             <Selectorbotton text="DBA" onClick={() => setShowDBA( true)}/>
             <Selectorbotton text="ESTANDARES" onClick={() => setShowDBA(false)}/>
       </main>
       {showDBA ? (
-        <div className="dba-items">
-          {dbaItems.map((evidencia, index) => (
-            <div key={index}>
-              <p>{evidencia.Descripción}</p>
-              <ul>
-                {evidencia.content.map((item, idx) => (
-                  <li key={idx}>
-                    {Object.keys(item).map((key) => (
-                      <p key={key}>
-                        {key}: {item[key]}
-                      </p>
-                    ))}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        <DBAItems dbaItems={dbaItems}  />
       ) : (
-        <div className="estandar-items">
-          {EstantItems.map((estandar, index) => (
-            <div key={index}>
-              <p>Curso: {estandar.curso}</p>
-              {estandar.img && <img src={estandar.img} alt="Imagen" />}
-            </div>
-          ))}
-        </div>
+        <ESTANTItems EstantItems={EstantItems} />
       )}
     </>
   );

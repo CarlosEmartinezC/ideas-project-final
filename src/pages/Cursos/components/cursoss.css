@@ -1,21 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
 .cursos {
-  
   display: flex;
   justify-content: center;
   align-items: center;
  
 }
-
-.cursos .Buttons {
+.cursos .boton {
   position: relative;
-
   margin: 10px;
   padding: 10px 20px;
-  background-color: #0c0c0c;
-  color: white;
+  background: transparent;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family:'Inter', sans-serif;
+  font-size: small;
 }
 .select-buttons  {
   display: flex;
@@ -26,15 +25,20 @@
 }
 
 .select-buttons .selector-button {
-  margin: 10px;
+  margin: 0;
   padding: 10px 20px;
   background: transparent;
-  color: black;
-  border: none;
+  border:none ;
   border-radius: 5px;
   cursor: pointer;
-  font-size: larger;
+  font-family: 'Libre Baskerville', serif;
+  font-size: xx-large;
 }
-.select-buttons .Selectorbotton:hover {
-  color: white;
+
+.cursos .ColorBlack {
+color: black;
 }
+
+.cursos .ColorWhite {
+  color: #A742CC
+} 

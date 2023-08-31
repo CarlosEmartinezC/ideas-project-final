@@ -7,7 +7,7 @@
                 {
                     "id_cont":0,
                     "description":"Educar es lo mismo que poner un motor a una banca hay que medir, pensar, equilibrar ... y poner todo en marcha",
-                    "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg",
+                    "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg",
                     "dba": [
                             {
                                 "Id": 1,
@@ -15,16 +15,16 @@
                                 "Descripción": "Comprende que los sentidos le permiten percibir algunas características de los objetos que nos rodean (temperatura, sabor, sonidos, olor, color, texturas y formas).",
                                 "content": [
                                     {
-                                        "evidencia_1": "Describe y caracteriza, utilizando el sentido apropiado, sonidos, sabores, olores, colores, texturas y formas" 
+                                        "Evidencia 1": "Describe y caracteriza, utilizando el sentido apropiado, sonidos, sabores, olores, colores, texturas y formas" 
                                     },
                                     {
-                                        "evidencia_2": "Compara y describe cambios en las temperaturas (más caliente, similar, menos caliente) utilizando el tacto en diversos objetos (con diferente color) sometidos a fuentes de calor como el sol. "
+                                        "Evidencia 2": "Compara y describe cambios en las temperaturas (más caliente, similar, menos caliente) utilizando el tacto en diversos objetos (con diferente color) sometidos a fuentes de calor como el sol. "
                                     },
                                     {
-                                        "evidencia_3": "Describe y caracteriza, utilizando la vista, diferentes tipos de luz (color, intensidad y fuente)."
+                                        "Evidencia 3": "Describe y caracteriza, utilizando la vista, diferentes tipos de luz (color, intensidad y fuente)."
                                     },
                                     {
-                                        "evidencia_4": "Usa instrumentos como la lupa para realizar observaciones de objetos pequeños y representarlos mediante dibujos."
+                                        "Evidencia 4": "Usa instrumentos como la lupa para realizar observaciones de objetos pequeños y representarlos mediante dibujos."
                                     }
                                 ]
                             }, {
@@ -33,16 +33,16 @@
                                 "Descripción": "Comprende que existe una gran variedad de materiales y que éstos se utilizan para distintos fines, según sus características (longitud, dureza, flexibilidad, permeabilidad al agua, solubilidad, ductilidad, maleabilidad, color, sabor, textura).",
                                 "content": [
                                     {
-                                        "evidencia_1": "Clasifica materiales de uso cotidiano a partir de características que percibe con los sentidos, incluyendo materiales sólidos como madera, plástico, vidrio, metal, roca y líquidos como opacos, incoloros, transparentes, así como algunas propiedades (flexibilidad, dureza, permeabilidad al agua, color, sabor y textura)." 
+                                        "Evidencia 1": "Clasifica materiales de uso cotidiano a partir de características que percibe con los sentidos, incluyendo materiales sólidos como madera, plástico, vidrio, metal, roca y líquidos como opacos, incoloros, transparentes, así como algunas propiedades (flexibilidad, dureza, permeabilidad al agua, color, sabor y textura)." 
                                    },
                                    {
-                                        "evidencia_2": "Predice cuáles podrían ser los posibles usos de un material (por ejemplo, la goma), de acuerdo con sus características. "
+                                        "Evidencia 2": "Predice cuáles podrían ser los posibles usos de un material (por ejemplo, la goma), de acuerdo con sus características. "
                                    },
                                    {
-                                        "evidencia_3": "Selecciona qué materiales utilizaría para fabricar un objeto dada cierta necesidad (por ejemplo, un paraguas que evite el paso del agua). "
+                                        "Evidencia 3": "Selecciona qué materiales utilizaría para fabricar un objeto dada cierta necesidad (por ejemplo, un paraguas que evite el paso del agua). "
                                    },
                                    {
-                                        "evidencia_4": "Utiliza instrumentos no convencionales (sus manos, palos, cuerdas, vasos, jarras) para medir y clasificar materiales según su tamaño."
+                                        "Evidencia 4": "Utiliza instrumentos no convencionales (sus manos, palos, cuerdas, vasos, jarras) para medir y clasificar materiales según su tamaño."
                                     }
                                 ]
                             }, {
@@ -84,17 +84,16 @@
                             }
                         ], 
                     "estandares": [
-                            {
-                                "curso": "primer",
-                                "img": " "
-                            },{
-                                "curso": "segundo",
-                                "img": ""
-                
-                            },{
-                                "curso": "tercero",
-                                "img": ""
-                            }
+                        {
+                            "curso": "Primer",
+                            "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg"
+                        },{
+                            "curso": "Segundo",
+                            "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg"
+                        },{
+                            "curso": "Tercero",
+                            "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg"
+                        }
                         ]}
                 ]
             },{
@@ -102,8 +101,8 @@
                 "content": [
             {
                 "id_cont":1,
-                "description":"",
-                "img": "",
+                "description":"Profesores, cómo olvidar, si gracias a ustedes, hoy soy lo quesoy. Sus enseñanzas han sido para mí uno de mis mejorestesoros, esos que me han convertido en la persona que soy.Cómo olvidar a quien me ha guiado, que día a día seesmera en enseñarme nuevas cosas. Ese docente que meenseñó la importancia de escribir bien, de que una palabra esimportante y la lectura me lleva a nuevos mundos.",
+                "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg",
                 "dba": [
                     {
                         "Id": "1",
@@ -178,15 +177,14 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg"
                     },{
-                        "curso": "segundo",
-                        "img": ""
-        
+                        "curso": "Segundo",
+                        "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg"
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg"
                     }
                 ]
             }
@@ -196,8 +194,8 @@
                 "content": [
             {
                 "id_cont":2,
-                "description":"",
-                "img": "",
+                "description":"Haz sido mi primer guía, en este mundo que nos tiene muchoque ofrecer. Quizá no he sido el mejor estudiante, sinembargo, aunque pasen los años, sus lecciones no saldránde mi vida y mi cabeza.Hoy quiero agradecer en esta carta, su esfuerzo, su valentíaporque a veces enseñarnos con tan pocos recursos, laeducación es un trabajo apto solo para valientes y ustedesenfrentan día a día con éxito su misión",
+                "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg",
                 "dba": [
                     {
                         "Id": "1",
@@ -275,15 +273,14 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg"
                     },{
-                        "curso": "segundo",
-                        "img": ""
-                    
+                        "curso": "Segundo",
+                        "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg"
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg"
                     }
                 ]
             }
@@ -293,8 +290,8 @@
                 "content":[
             {
                 "id_cont":3,
-                "description":"",
-                "img": "",
+                "description":"Cada día pienso en sus enseñanzas, en cómo leer nosayudaría y ¡vaya que lo ha hecho! Pero ¿saben algo,profesores? Usted no solo me enseñó sobre lenguaje,matemáticas, Historia o ciencias, ustedes me enseñaronsobre la vida, algo que a veces importa más",
+                "img": "https://i.ibb.co/WP0RyG5/4to-ciencias.jpg",
                 "dba": [
                     {
                         "Id": "1",
@@ -367,10 +364,10 @@
                 "estandares": [
                     {
                         "curso": "Cuarto",
-                        "img": ""
+                        "img": "https://i.ibb.co/WP0RyG5/4to-ciencias.jpg"
                     },{
                         "curso": "Quinto",
-                        "img": ""
+                        "img": "https://i.ibb.co/9V2VhkQ/5to-ciencias.jpg"
                     }
                 ]
             }
@@ -379,8 +376,8 @@
                 "grado": 5,
                 "content":  [
                 {
-                    "description":"",
-                    "img": "",
+                    "description":"Cuando más lo necesitaba, cuando en ocasiones lainseguridad me ganaba y pensaba que no era suficiente, unapalabra suya era bastante para darme aliento, para sentirmeimportante, valioso y capaz de darle vida a mis sueños.Pocas veces se tienen maestros como ustedes, esos quehacen sentir que vale la pena levantarse temprano, vale la alegra",
+                    "img": "https://i.ibb.co/9V2VhkQ/5to-ciencias.jpg",
                     "dba": [
                         {
                             "Id": "1",
@@ -453,11 +450,10 @@
                     "estandares": [
                         {
                             "curso": "Cuarto",
-                            "img": ""
+                            "img": "https://i.ibb.co/WP0RyG5/4to-ciencias.jpg"
                         },{
                             "curso": "Quinto",
-                            "img": ""
-                        
+                            "img": "https://i.ibb.co/9V2VhkQ/5to-ciencias.jpg"
                         }
                     ]
                 }
@@ -470,8 +466,9 @@
             {
             "grado":1,
             "content":[{
-                "description":"",
-                "img": "",
+                "description":"¡Maestra siempre admirare su labor de cada día, pues se llenaba de paciencia y amor para escribir en la pizarra las lecciones que con dedicacion me enseñaba, siempre le estare agradecido!",
+                "img": "https://i.ibb.co/FHKGcH4/Pgrado.png",
+                "info": "imagen de primer grado",
                 "dba": [
                     {
                         "Id": 1,
@@ -556,22 +553,23 @@
                 ], 
                 "estandares": [
                     {
-                        "curso":"primero",
-                        "img": ""
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/FHKGcH4/Pgrado.png"
                     },{
-                        "curso":"segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": "https://i.ibb.co/vYF5D0Z/imagen1-06.jpg"
+        
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": "https://i.ibb.co/YWDpqsL/3ro-matematicas.jpg"
                     }
                 ]
             }]
             },{
             "grado": 2,
             "content":  [{
-                "description":"",
-                "img": "",
+                "description":"Quizá olvide tus clases, pero no la clase de maestro que fuiste. Gracias por todas tus enseñanzas, especialmente por esas que me ayudaron a formarme como persona. El saber es poder y nosotros pudimos llegar hasta aquí gracias a tu superpoder. ",
+                "img": "https://i.ibb.co/X5DtrDj/frist-course.jpg",
                 "dba": [
                     {
                         "Id": 1,
@@ -747,23 +745,23 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/FHKGcH4/Pgrado.png"
                     },{
-                        "curso": "segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": "https://i.ibb.co/vYF5D0Z/imagen1-06.jpg"
         
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": "https://i.ibb.co/YWDpqsL/3ro-matematicas.jpg"
                     }
                 ]
             }]
             },{
             "grado": 3,
             "content":  [{
-                "description":"",
-                "img": "",
+                "description":"El arte de enseñar es algo en lo que pocos se pueden destacar mucho, por eso me alegro que mi profe haya sido un Picasso, No alcanzan las palabras para expresar el agradecimiento que sentimos por todas tus enseñanzas que día a día nos transmites con paciencia y dedicación.",
+                "img": "https://i.ibb.co/YWDpqsL/3ro-matematicas.jpg",
                 "dba": [
                     {
                         "Id": 1,
@@ -955,23 +953,23 @@
                 ],
                 "estandares": [
                     {
-                        "curso": "primer",
-                        "img": " "
+                        "curso": "Primer",
+                        "img": "https://i.ibb.co/FHKGcH4/Pgrado.png"
                     },{
-                        "curso": "segundo",
-                        "img": ""
+                        "curso": "Segundo",
+                        "img": "https://i.ibb.co/vYF5D0Z/imagen1-06.jpg"
         
                     },{
-                        "curso": "tercero",
-                        "img": ""
+                        "curso": "Tercero",
+                        "img": "https://i.ibb.co/YWDpqsL/3ro-matematicas.jpg"
                     }
                 ]
             }]
             },{
             "grado": 4,
             "content":  [{
-                "description":"",
-                "img": "",
+                "description":"Al compositor de mi vida quiero hoy demostrarle mi más sincera gratitud. Pues gracias a él, puedo decir que hay armonía en mi vida. Nosotros hemos ganado el año, tú has ganado un espacio en nuestros corazones. No olvidaremos tus enseñanzas.",
+                "img": "https://i.ibb.co/vdS7Scq/cuarto-09.jpg",
                 "dba": [ 
                     {
                         "Id": 1,
@@ -1133,18 +1131,18 @@
                 "estandares": [
                     {
                         "curso": "Cuarto",
-                        "img": ""
+                        "img": "https://i.ibb.co/vdS7Scq/cuarto-09.jpg"
                     },{
                         "curso": "Quinto",
-                        "img": ""
+                        "img": "https://i.ibb.co/CH6B1Ny/matematicas.jpg"
                     }
                 ]
             }]
             },{
             "grado": 5,
             "content":  [{
-                "description":"",
-                "img": "", 
+                "description":"Si tuviera que dar las gracias por la paciencia que me tuviste, quizá nunca acabaría. Jamás olvidaré la dedicación y cariño con la que me enseñaste. Además de maestro, nos alentaban como a hijos. Gracias por impulsarnos a ser cada día mejores.",
+                "img": "https://i.ibb.co/CH6B1Ny/matematicas.jpg", 
                 "dba": [
                 {
                     "Id": 1,
@@ -1337,10 +1335,10 @@
                 "estandares": [
                 {
                     "curso": "Cuarto",
-                    "img": ""
+                    "img": "https://i.ibb.co/vdS7Scq/cuarto-09.jpg"
                 },{
                     "curso": "Quinto",
-                    "img": ""
+                    "img": "https://i.ibb.co/CH6B1Ny/matematicas.jpg"
                 }
                 ]
             }]
