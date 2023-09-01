@@ -1,9 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
 .cursos {
+flex-direction: row;
+width: 108%;
+margin: 0;
+padding-left: 0;
+justify-content: center;
+background-color: transparent;
+}
+.cursos .boton {
+justify-content: center;
+margin-left: 10px;
+padding: 0px;
+background-color: transparent;
+border: none;
+font-size: xx-small;
+}
+.select-buttons  {
+  display: flex;
+  justify-content: center;
+  width: 108%;
+  background-color: #A742CC;
+}
+
+
+.select-buttons .selector-button {
+  margin: 0;
+  padding: 10px 20px;
+  background: transparent;
+  border:none ;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Libre Baskerville', serif;
+  font-size: medium;
+}
+
+@media screen and (min-width:700px) and (max-width: 1024px) {
+  .cursos {
+    flex-direction: row;
+    width: 108%;
+    margin-left: 0;
+    padding-left: 0;
+    justify-content: center;
+    background-color: transparent;
+    }
+    .cursos .boton {
+    justify-content: center;
+    margin-left: 10px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    font-size: xx-small;
+    }
+    .select-buttons  {
+      display: flex;
+      justify-content: center;
+      width: 108%;
+      background-color: #A742CC;
+    }
+    
+    
+    .select-buttons .selector-button {
+      margin: 0;
+      padding: 10px 20px;
+      background: transparent;
+      border:none ;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Libre Baskerville', serif;
+      font-size: medium;
+    }
+}
+@media screen and (min-width:1024px) and (max-width: 2080px) {
+.cursos {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  cursor: pointer;
+
 }
 .cursos .boton {
   position: relative;
@@ -42,3 +115,4 @@ color: black;
 .cursos .ColorWhite {
   color: #A742CC
 } 
+}
