@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 body{
     background: #F0F0F0;
@@ -35,9 +36,9 @@ article{
 }
 p{
     
-    width: 60%;
-    font-family: "AwanZaman Regular";
-    font-size: 40px;
+    width: 65%;
+    font-family: "Inter";
+    font-size: 25px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -104,6 +105,31 @@ p{
     flex-direction: column;
     align-items: center;
 }
+/* Define la animación */
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Aplica la animación a las imágenes */
+.imagenes .personaje1 img,
+.imagenes .personaje2 img,
+.imagenes .personaje3 img{
+    transition: transform 0.3s ease;
+}
+
+.imagenes .personaje1 img:hover,
+.imagenes .personaje2 img:hover,
+.imagenes .personaje3 img:hover {
+    animation: zoomIn 1s infinite;
+}
 .imagenes .personaje3 h3{
     text-align: center;
     padding: 0;
@@ -118,35 +144,35 @@ p{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        
 
-    }
-    img{
-        width: 330px;
     }
     h1{
         font-size: 35px;
     }
     h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     p{
-        font-size: 25px;
-        
+        font-size: 22px;
+    }
+    img{
+        width: 320px;
     }
     .container2 h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     .container3 h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     .imagenes .personaje1 h3{
-        font-size: 25px;
+        font-size: 26px;
     }
     .imagenes .personaje2 h3{
-        font-size: 25px;
+        font-size: 26px;
     }
     .imagenes .personaje3 h3{
-        font-size: 25px;
+        font-size: 26px;
     }
-
 }
+

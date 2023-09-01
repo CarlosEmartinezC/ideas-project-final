@@ -1,7 +1,7 @@
 import './Contact.css';
 
 import React, { useRef, useState } from 'react';
-import Imagen from '../../recursos/contact1.png'
+import Imagen from '../../recursos/contact11.png'
 import emailjs from 'emailjs-com';
 
 
@@ -32,15 +32,18 @@ const Contact = () => {
       };
       return (
         <div className='Contact'>
-         <img src={Imagen} alt='imagen1'></img>
-        <section id="contact">
-        <h2>Contáctanos</h2>
-          <h5>
+           <h2>Contáctanos</h2>
+          
+           <div className='texto'>
+           <h5>
           Estamos aquí para escucharte.<br/>
-           Tu mensaje es importante para nosotros y haremos todo lo posible por responder tan pronto como sea posible.<br/>
-           Por favor, asegúrate de proporcionar un correo electrónico válido para que podamos ponernos en contacto contigo.<br/>
+           Tu mensaje es importante para nosotros y haremos todo lo posible por responder<br/> tan pronto como sea posible.<br/>
+           
             ¡Gracias por ayudarnos a mejorar!
           </h5>
+          </div>
+         
+        <section id="contact">
         
           <div className="container contact__container">
             
@@ -66,13 +69,10 @@ const Contact = () => {
               <button type="submit" className="btn btn">
                 Enviar mensaje
               </button>
-              {message && <span>gracias, por enviarnos tu mensaje<br/>
-              Tu privacidad es esencial para nosotros.<br/>
-               En Fundacion tejer ideas, utilizamos tu correo electrónico solo<br/>
-                para los propósitos específicos que nos proporcionaste.<br/>
-                 No vendemos ni compartimos tu información.<br/>
-                 Siempre respetamos las regulaciones de privacidad y<br/>
-                  te mantendremos informado si usamos tus datos para nuevos fines.</span>}
+              {message && <span>Gracias por recibir nuestro mensaje.
+               En Fundación Tejer Ideas, protegemos tu privacidad y usamos tu correo
+                solo para los propósitos que nos diste. No vendemos ni compartimos tu información, y siempre
+                 cumplimos con las regulaciones de privacidad. Te informaremos si usamos tus datos para nuevos fines.</span>}
             </form>
           </div>
         </section>
