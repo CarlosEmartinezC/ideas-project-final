@@ -13,12 +13,12 @@ const DBAItems = ({ dbaItems }) => {
     <div className="dba-items">
       {dbaItems.map((evidencia, index) => (
         <button onClick={() => handleClick(index)} key={index} className="collapse">
-        {isCollapsed[index] ? <span><b className="dba-number">{index+1} </b> {evidencia.Descripción.substring(0, 90)}... <BsFillCaretDownFill className="icono" ></BsFillCaretDownFill> </span>
+        {isCollapsed[index] ? <span><b className="dba-number">{index+1} </b> {evidencia.Descripción.substring(0, 30)}... <BsFillCaretDownFill className="icono" ></BsFillCaretDownFill> </span>
         :
         <span><b className="dba-number" id="number">{index+1} </b> {evidencia.Descripción}</span>
         }
-        <div  style={{ display: isCollapsed[index] ? "none" : "flex" }}>
-          <ul>
+        <div  className="dba-items evidence" style={{ display: isCollapsed[index] ? "none" : "flex" }}>
+          <ul className="evidence">
             {evidencia.content.map((item, idx) => (
               <li key={idx} className="collapse-content">
                 {Object.keys(item).map((key) => (

@@ -16,10 +16,10 @@ const FilteredContent = ({ content, dba }) => {
   const EstantItems = content[0].estandares;
   return (
     <>
-      <div className="filtered-content">
+      <section className="filtered-content">
       {img && <img className="filtered-content-image" src={img} alt={info}/>}
         <p className="filtered-content ">{description}</p>
-      </div>
+      </section>
       <main className="select-buttons inter">
             <Selectorbotton text="DBA" onClick={() => setShowDBA( true)}/>
             <Selectorbotton text="ESTANDARES" onClick={() => setShowDBA(false)}/>

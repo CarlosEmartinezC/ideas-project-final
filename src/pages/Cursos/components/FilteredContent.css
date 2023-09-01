@@ -1,19 +1,41 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
-
   .filtered-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 2em;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 0.2em;
+    width: 100%;
+    }
+    .filtered-content .filtered-content-image{
+        display: flex;
+        position: relative;
+        width: 30%;
+    }
+    .filtered-content p {
+        font-family: 'Inter', sans-serif;
+        font-size: xx-small;
+        width: 80%;
+        margin-left: 10px;
+    }
+
+  @media screen and (min-width:760px) and (max-width: 2080px) {
+    .filtered-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em;
+    }
+    .filtered-content .filtered-content-image{
+        width: 40vw;
+        height: auto;
+        margin-right: 2em;
+    }
+    .filtered-content p {
+        font-family: 'Inter', sans-serif;
+        font-size: small;
+        width: 70%;
+        margin: 0;
+    }
 }
-.filtered-content .filtered-content-image{
-    width: 20vw;
-    height: 19vh;
-    margin-right: 4em;
-}
-.filtered-content p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1em;
-    width: 20vw;
-    margin: 0;
-}
+
