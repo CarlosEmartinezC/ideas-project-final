@@ -7,7 +7,7 @@
                 {
                     "id_cont":0,
                     "description":"Educar es lo mismo que poner un motor a una banca hay que medir, pensar, equilibrar ... y poner todo en marcha",
-                    "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg",
+                    "img": "https://i.ibb.co/y0sHj1f/primero-c-09.jpg",
                     "dba": [
                             {
                                 "Id": 1,
@@ -86,13 +86,13 @@
                     "estandares": [
                         {
                             "curso": "Primer",
-                            "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg"
+                            "img": "https://i.ibb.co/y0sHj1f/primero-c-09.jpg"
                         },{
                             "curso": "Segundo",
-                            "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg"
+                            "img": "https://i.ibb.co/863VzRh/segundo-c-09.jpg"
                         },{
                             "curso": "Tercero",
-                            "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg"
+                            "img": "https://i.ibb.co/r7pBsMB/tercero-c-09.jpg"
                         }
                         ]}
                 ]
@@ -102,7 +102,7 @@
             {
                 "id_cont":1,
                 "description":"Profesores, cómo olvidar, si gracias a ustedes, hoy soy lo quesoy. Sus enseñanzas han sido para mí uno de mis mejorestesoros, esos que me han convertido en la persona que soy.Cómo olvidar a quien me ha guiado, que día a día seesmera en enseñarme nuevas cosas. Ese docente que meenseñó la importancia de escribir bien, de que una palabra esimportante y la lectura me lleva a nuevos mundos.",
-                "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg",
+                "img": "https://i.ibb.co/863VzRh/segundo-c-09.jpg",
                 "dba": [
                     {
                         "Id": "1",
@@ -178,13 +178,13 @@
                 "estandares": [
                     {
                         "curso": "Primer",
-                        "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg"
+                        "img": "https://i.ibb.co/y0sHj1f/primero-c-09.jpg"
                     },{
                         "curso": "Segundo",
-                        "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg"
+                        "img": "https://i.ibb.co/863VzRh/segundo-c-09.jpg"
                     },{
                         "curso": "Tercero",
-                        "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg"
+                        "img": "https://i.ibb.co/r7pBsMB/tercero-c-09.jpg"
                     }
                 ]
             }
@@ -195,7 +195,7 @@
             {
                 "id_cont":2,
                 "description":"Haz sido mi primer guía, en este mundo que nos tiene muchoque ofrecer. Quizá no he sido el mejor estudiante, sinembargo, aunque pasen los años, sus lecciones no saldránde mi vida y mi cabeza.Hoy quiero agradecer en esta carta, su esfuerzo, su valentíaporque a veces enseñarnos con tan pocos recursos, laeducación es un trabajo apto solo para valientes y ustedesenfrentan día a día con éxito su misión",
-                "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg",
+                "img": "https://i.ibb.co/r7pBsMB/tercero-c-09.jpg",
                 "dba": [
                     {
                         "Id": "1",
@@ -274,13 +274,13 @@
                 "estandares": [
                     {
                         "curso": "Primer",
-                        "img": "https://i.ibb.co/n3WmPYF/primero-09.jpg"
+                        "img": "https://i.ibb.co/y0sHj1f/primero-c-09.jpg"
                     },{
                         "curso": "Segundo",
-                        "img": "https://i.ibb.co/1QCJzPD/segundo-09.jpg"
+                        "img": "https://i.ibb.co/863VzRh/segundo-c-09.jpg"
                     },{
                         "curso": "Tercero",
-                        "img": "https://i.ibb.co/BwZ2cpd/tercero-09.jpg"
+                        "img": "https://i.ibb.co/r7pBsMB/tercero-c-09.jpg"
                     }
                 ]
             }
@@ -291,7 +291,7 @@
             {
                 "id_cont":3,
                 "description":"Cada día pienso en sus enseñanzas, en cómo leer nosayudaría y ¡vaya que lo ha hecho! Pero ¿saben algo,profesores? Usted no solo me enseñó sobre lenguaje,matemáticas, Historia o ciencias, ustedes me enseñaronsobre la vida, algo que a veces importa más",
-                "img": "https://i.ibb.co/WP0RyG5/4to-ciencias.jpg",
+                "img": "https://i.ibb.co/ZYM4tHL/cuarto-c-09.jpg",
                 "dba": [
                     {
                         "Id": "1",
@@ -364,10 +364,10 @@
                 "estandares": [
                     {
                         "curso": "Cuarto",
-                        "img": "https://i.ibb.co/WP0RyG5/4to-ciencias.jpg"
+                        "img": "https://i.ibb.co/ZYM4tHL/cuarto-c-09.jpg"
                     },{
                         "curso": "Quinto",
-                        "img": "https://i.ibb.co/9V2VhkQ/5to-ciencias.jpg"
+                        "img": "https://i.ibb.co/Pw9T1xT/quinto-c-09.jpg"
                     }
                 ]
             }
@@ -377,7 +377,7 @@
                 "content":  [
                 {
                     "description":"Cuando más lo necesitaba, cuando en ocasiones lainseguridad me ganaba y pensaba que no era suficiente, unapalabra suya era bastante para darme aliento, para sentirmeimportante, valioso y capaz de darle vida a mis sueños.Pocas veces se tienen maestros como ustedes, esos quehacen sentir que vale la pena levantarse temprano, vale la alegra",
-                    "img": "https://i.ibb.co/9V2VhkQ/5to-ciencias.jpg",
+                    "img": "https://i.ibb.co/Pw9T1xT/quinto-c-09.jpg",
                     "dba": [
                         {
                             "Id": "1",
@@ -450,10 +450,10 @@
                     "estandares": [
                         {
                             "curso": "Cuarto",
-                            "img": "https://i.ibb.co/WP0RyG5/4to-ciencias.jpg"
+                            "img": "https://i.ibb.co/ZYM4tHL/cuarto-c-09.jpg"
                         },{
                             "curso": "Quinto",
-                            "img": "https://i.ibb.co/9V2VhkQ/5to-ciencias.jpg"
+                            "img": "https://i.ibb.co/Pw9T1xT/quinto-c-09.jpg"
                         }
                     ]
                 }
