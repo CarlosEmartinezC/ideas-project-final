@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+
+.dba-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    width: 90vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+}
+.dba-items .collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    width: 30vw;
+    height: auto;
+    border-radius: 1em;
+    background-color: #F3C49A;
+}
+.dba-items .collapse .dba-number{
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    text-align: left;
+    width: 60px;
+}
+.dba-items .collapse .icono{
+    color: #A742CC;
+}
+.dba-items .collapse-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 1em 1em 1em 0;
+    width: 25vw;
+    border-radius: 1em;
+    background-color: #A742CC;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em; 
+}
+.dba-items ul li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.dba-items ul li b{
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    padding-right:50px;
+    text-align: left;
+}
+.dba-items ul li p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    width: 20vw;
+}
