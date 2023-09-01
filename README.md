@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# PLATAFORMA DE CONSULTA PROFESORES COLOMBIANOS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Captura de pantalla 2023-09-01 111747.png](PLATAFORMA%20DE%20CONSULTA%20PROFESORES%20COLOMBIANOS%20743529f433ec47438e59751cba544b93/Captura_de_pantalla_2023-09-01_111747.png)
 
-## Available Scripts
+<aside>
+👋 Equipo de trabajo…
 
-In the project directory, you can run:
+Lider Técnico-Carlos Enrique Martines
 
-### `npm start`
+Scrum Master-Neyry Maria Vargas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Equipo de desarrollo-Juan Pablo Peña
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Equipo de desarrollo -Sebastián barqueros 
 
-### `npm test`
+Equipo de desarrollo-Juan Amaya
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Equipo de desarrollo-Yancarlos torres
 
-### `npm run build`
+</aside>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sobre el proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Descripción del proyecto](https://www.notion.so/Descripci-n-del-proyecto-299a1d6fc2f14fc2947c1066a0cf535a?pvs=21)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Repositorios
 
-### `npm run eject`
+## Sobre fundacion Tejer Ideas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[fundacion Tejer Ideas](https://www.notion.so/fundacion-Tejer-Ideas-1707df75b0b34c24a9ec400f5cfabbe4?pvs=21)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[](https://github.com/CarlosEmartinezC/ideas-project-final/invitations)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Despliegue
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Front-end
 
-## Learn More
+[Tecnologías](https://www.notion.so/Tecnolog-as-59f106455c6b4245bfe3f1644c66cae1?pvs=21)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Estructura de carpetas](https://www.notion.so/Estructura-de-carpetas-3cafbab7cfc84cf6805f36e294cc82eb?pvs=21)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Pages
 
-### Code Splitting
+[Home](https://www.notion.so/Home-a6dac2dada7846269ad7681c03b6ee35?pvs=21)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Sobre nosotros](https://www.notion.so/Sobre-nosotros-82d5b37b753b4e088810fb8cc02cb78d?pvs=21)
 
-### Analyzing the Bundle Size
+[Temáticas-](https://www.notion.so/Tem-ticas-830eabe47265467e97c9a7afc20e3811?pvs=21)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[contact](https://www.notion.so/contact-70901c2dcf4541b4aab05fcd93350e14?pvs=21)
 
-### Making a Progressive Web App
+### Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Header](https://www.notion.so/Header-105850cef8ed4f868d086f126d1eeb89?pvs=21)
 
-### Advanced Configuration
+[Footer](https://www.notion.so/Footer-9896e443609b48b7844b6de6d271e29f?pvs=21)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[DBA](https://www.notion.so/DBA-cfebc72dba84487c90ae5617e91ea18e?pvs=21)
 
-### Deployment
+[Silder](https://www.notion.so/Silder-2c7bc25ab8504b3594bbc6a4e7ff3120?pvs=21)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Buttons](https://www.notion.so/Buttons-73ae32700cbe436bbde6549bcad8435c?pvs=21)
 
-### `npm run build` fails to minify
+### 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
+
