@@ -1,22 +1,24 @@
-/* Base styles for the footer */
 .footer {
-  position: relative;
+  position: relative; 
+  position: relative; 
   left: 0;
-  bottom: 0;
+  bottom: 0; 
+  bottom: 0; 
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: #fff; /* Orange background color */
+  background-color: #fff;
+  background-color: #fff;
   color: #000000;
 }
-
 /* Styles for the logo */
 .logo {
   flex: 1;
   width: 6em;
   height: 3em;
+  margin-left: 25px;
   margin-left: 25px;
 }
 
@@ -30,10 +32,17 @@
 /* Styles for the information */
 .footer-info {
   flex: 4;
+  margin-left: 15%;
+}
+.footer-info p{
+  flex: 4;
+  margin-left: 15%;
 }
 .footer-info p{
   text-align: center;
-  font-size: 15px; /* Adjust font size */
+  font-size: 15px; 
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px; 
   font-family: 'Libre Baskerville', serif;
 }
 /* Styles for the buttons */
@@ -49,6 +58,9 @@
   background-color: #a742cc; 
   color: #fff;
   border: 1px solid #fff;
+  background-color: #a742cc; 
+  color: #fff;
+  border: 1px solid #fff;
   margin-bottom: 10px;
   margin-right: 25px; /* Add margin to the right for spacing */
   padding: 8px 12px;
@@ -56,20 +68,47 @@
   display: flex;
   font-size: 12px; /* Adjust font size */ 
   align-items: center;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: flex;
+  font-size: 12px;  
+  align-items: center;
 }
 
 /* Styles for buttons on small screens */
 @media (max-width: 780px) {
+@media (max-width: 780px) {
   .footer {
+    top: 100%;
+    width: 100%;
     top: 100%;
     width: 100%;
     flex-direction: column;
     text-align: center;
   }
+  
+  .footer-info p{
+    font-size: 12px;
+    align-items: right;
+  }
+
+  .logo {
+    align-items: center;
+    flex: 1;
+    width: 6em;
+    height: 3em;
+  
+  }
+  
+  .logo-1 {
+    align-items: center;
+    flex: 2;
+    width: 6em;
+    height: 3em;
+  }
 
   .footer-logo,
   .footer-buttons {
-    flex: auto;
     margin-bottom: 10px;
   }
 }
@@ -77,6 +116,43 @@
 @media (max-width: 880px) {
   .footer-info p{
     font-size: 12px;
+    margin-left: 8%;
   }
 
+  .logo {
+    width: 6em;
+    height: 3em;
+    margin-left: 1%;
+  }
+  
+  .logo-1 {
+    margin-left: 5%;
+    flex: 2;
+    width: 6em;
+    height: 3em;
+  }
+  .footer-buttons {
+    margin-left: 5%;
+}
+}
+@media (max-width: 880px) {
+  .footer-info p{
+    font-size: 12px;
+    margin-left: 5%;
+  }
+
+  .logo {
+    flex: 1;
+    width: 6em;
+    height: 3em;
+    margin-left: -15px;
+  }
+  
+  .logo-1 {
+    flex: 2;
+    margin-left: -5px;
+    width: 6em;
+    height: 3em;
+  }
+}
 }

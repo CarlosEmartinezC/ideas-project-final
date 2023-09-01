@@ -37,17 +37,22 @@ const Nosotros = () =>{
                         <div className="personaje1">
                             <img src={Img3} alt=""/>
                             <h3>Oscar Ariza</h3>
+                            <h5>Asesor en innovacion educativapara<br/>
+                                educacion basica</h5>
                             
                         </div>
                             <div className="personaje2">
                                 <img src={Img4} alt="" />
                                 <h3>Germán Rodríguez</h3>
+                                <h5>Fundador y director del gimnasio <br/>
+                                bilingüe campestre Marie Curie</h5>
                                 
                             </div>
                                 <div className="personaje3">
                                 <img src={Img5} alt="" />
                                 <h3>Fabiola Grisales</h3>
-                                
+                                <h5>Fundadora y lider de innovación del<br/>
+                                gimnasio bilingüe campeste Marie Cure </h5>
                                 </div>
                     </div>
                 </article>

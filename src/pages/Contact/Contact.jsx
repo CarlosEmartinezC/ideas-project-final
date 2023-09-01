@@ -37,8 +37,8 @@ const Contact = () => {
            <div className='texto'>
            <h5>
           Estamos aquí para escucharte.<br/>
-           Tu mensaje es importante para nosotros y haremos todo lo posible por responder tan pronto como sea posible.<br/>
-           Por favor, asegúrate de proporcionar un correo electrónico válido para que podamos ponernos en contacto contigo.<br/>
+           Tu mensaje es importante para nosotros y haremos todo lo posible por responder<br/> tan pronto como sea posible.<br/>
+           
             ¡Gracias por ayudarnos a mejorar!
           </h5>
           </div>
