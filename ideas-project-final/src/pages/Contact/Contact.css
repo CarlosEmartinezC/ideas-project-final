@@ -1,0 +1,105 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+
+
+.h2{
+    position: relative;
+    width: 150px;
+}
+.texto{
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    bottom: 50px;
+    left: 0px;
+    font-size: 30px;
+}
+
+
+
+
+.container.contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'inter';
+  }
+  
+  form {
+    max-width: 400px;
+    margin-bottom: 60px;
+    width: 100%;
+    padding: 5%;
+    border: 1px solid #ac4fce;
+    border-radius: 7px;
+    background: #ac4fce;
+    box-shadow: 0 0 5px rgba(10, 10, 10, 0.9);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  form:hover {
+    transform: translateY(-5px); /* Agrega un efecto de elevación al pasar el ratón */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input,
+  textarea {
+    width: 93%;
+    padding: 4%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #1f1e1d;
+    resize: none;
+    color: #0a0a0a;
+    transition: border-color 0.3s ease;
+  }
+  
+
+  input:focus,
+  textarea:focus {
+    border-color: #802f9e; /* Cambia el color del borde al enfocar */
+  }
+  
+  .btn {
+   
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 15px;
+    cursor: pointer;
+    background: #f3f3f3;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #edbb7e;
+  }
+@media screen and (min-width: 310px) and (max-width:1900) {
+    .contact{
+      overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.5rem;
+    }
+    .texto{
+        display: flex;
+        flex-direction: column;
+        bottom: 20px;
+        
+        
+    }
+    
+    form span{
+        font-size: 10px;
+        
+    }
+    
+}
