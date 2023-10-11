@@ -32,7 +32,7 @@ Equipo de desarrollo-Yancarlos torres
 [](https://github.com/CarlosEmartinezC/ideas-project-final/invitations)
 
 ## Despliegue
-(https://ideas-project-final.vercel.app/carouselcomponent)
+
 ## Front-end
 
 [Tecnologías](https://www.notion.so/Tecnolog-as-59f106455c6b4245bfe3f1644c66cae1?pvs=21)

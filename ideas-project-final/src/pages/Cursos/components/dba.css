@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+
+.dba-items{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1em;
+    font-family: 'Inter', sans-serif;
+    font-size: xx-small;
+    justify-content: center;
+    padding-left: 15%;
+}
+.dba-items .collapse {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 1em;
+    margin-top: 1em;
+    width: 85%;
+    height: auto;
+    border-radius: 1em;
+    background-color: #F3C49A;
+    word-spacing: 0.7em;
+}
+.dba-items .collapse span {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: xx-small;
+}
+.dba-items .collapse b{
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    text-align: left;
+    position: left;
+}
+.dba-items .collapse .icono{
+    color: #A742CC;
+}
+.dba-items .collapse-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 1em 0 1em 3em;
+    width: 90%;
+    border-radius: 1em;
+    background-color: #A742CC;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em; 
+}
+.dba-items .evidence{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+
+}
+.dba-items ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.dba-items ul li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.dba-items ul li b{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-small;
+    padding: 0 4px 0 2px;
+    text-align: left;
+}
+.dba-items ul li p{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-small;
+    width: 100%;
+}
+@media screen and (min-width:768px) and (max-width: 1040px) {
+    .dba-items{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 1em;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-size: xx-small;
+        justify-content: center;
+        padding-left: 9%;
+    }
+    .dba-items .collapse {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        padding: 1em;
+        margin: 1em;
+        width: 50%;
+        height: auto;
+        border-radius: 1em;
+        background-color: #F3C49A;
+        word-spacing: 0.7em;
+    }
+    .dba-items .collapse span {
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-size: xx-small;
+    }
+    .dba-items .collapse b{
+        font-family: 'Inter', sans-serif;
+        font-size: small;
+        text-align: left;
+        position: left;
+    }
+    .dba-items .collapse .icono{
+        color: #A742CC;
+    }
+    .dba-items .collapse-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 1em 0 1em 3em;
+        width: 90%;
+        border-radius: 1em;
+        background-color: #A742CC;
+        font-family: 'Inter', sans-serif;
+        font-size: 1em; 
+    }
+    .dba-items .evidence{
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    
+    }
+    .dba-items ul {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .dba-items ul li {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    .dba-items ul li b{
+        font-family: 'Inter', sans-serif;
+        font-size: xx-small;
+        padding: 0 4px 0 2px;
+        text-align: left;
+    }
+    .dba-items ul li p{
+        font-family: 'Inter', sans-serif;
+        font-size: xx-small;
+        width: 100%;
+    
+    }  
+}
+@media screen and (min-width:1024px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+
+    .dba-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        width: 90vw;
+        font-family: 'Inter', sans-serif;
+        font-size: 1em;
+    }
+    .dba-items .collapse {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 1em;
+        margin: 1em;
+        width: 30vw;
+        height: auto;
+        border-radius: 1em;
+        background-color: #F3C49A;
+    }
+    .dba-items .collapse .dba-number{
+        font-family: 'Inter', sans-serif;
+        font-size: 2em;
+        text-align: left;
+        width: 60px;
+    }
+    .dba-items .collapse .icono{
+        color: #A742CC;
+    }
+    .dba-items .collapse-content{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        margin: 1em 1em 1em 0;
+        width: 25vw;
+        border-radius: 1em;
+        background-color: #A742CC;
+        font-family: 'Inter', sans-serif;
+        font-size: 1em; 
+    }
+    .dba-items ul li {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    .dba-items ul li b{
+        font-family: 'Inter', sans-serif;
+        font-size: 2em;
+        padding-right:50px;
+        text-align: left;
+    }
+    .dba-items ul li p{
+        font-family: 'Inter', sans-serif;
+        font-size: 1em;
+        width: 20vw;
+    }
+}

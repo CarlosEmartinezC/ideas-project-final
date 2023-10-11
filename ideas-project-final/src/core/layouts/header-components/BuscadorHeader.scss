@@ -1,0 +1,57 @@
+/* BuscadorHeader.scss */
+
+.buscadorHeader {
+  display: none;
+  align-items: center;
+  background-color: #ffffff00;
+  width: 225px; /* Ancho del layout */
+  height: 36px; /* Alto del layout */
+  border-radius: 25px; /* Radio del borde */
+  border: 1px solid #a742cc; /* Estilo del borde */
+  padding: 5px;
+  margin-right: 120px;
+
+  @media (max-width: 575px) {
+    /* Estilos para teléfonos */
+    width: 80px; /* Ancho del layout */
+    height: 17px; /* Alto del layout */
+    margin-right: 10px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Estilos para teléfonos en modo horizontal */
+    width: 80px; /* Ancho del layout */
+    height: 17px; /* Alto del layout */
+    margin-right: 10px;
+
+}
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para tabletas */
+    width: 150px; /* Ancho del layout */
+    height: 20px; /* Alto del layout */
+    margin-right: 10px;
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para pantallas de escritorio normales */
+    width: 150px; /* Ancho del layout */
+    height: 20px; /* Alto del layout */
+    margin-right: 10px;   
+
+  }
+
+  #IconBuscador {
+    height: 24px;
+    width: 23PX;
+    margin-right: 10px;
+    margin-left: 18PX;
+  }
+
+  #ImputBusHea {
+    border: none;
+    outline: none;
+    flex: 1;
+    background-color: #ffffff00;
+  }
+
+}
