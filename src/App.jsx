@@ -7,6 +7,7 @@ import Contact from './pages/Contact/Contact';
 import CarouselComponent from './pages/Home/Home';
 import Nosotros from './pages/Sobre-nosotros/nosotros';
 import Curso from './pages/Cursos/Cursos'
+
 function App() {
   return (
     <Router>
