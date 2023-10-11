@@ -1,7 +1,6 @@
 body{
     overflow-x: hidden;
     width: 100%;
-    font-family: 'yatra one', sans-serif;
 }
 
 
@@ -12,11 +11,10 @@ body{
     width: 150px;
 }
 .texto{
-    padding: 0;
+    padding: 30px;
     position: relative;
     text-align: center;
     bottom: 50px;
-    top: 80px;
     left: 0px;
     font-size: 30px;
 }
@@ -32,9 +30,6 @@ body{
     padding: 10px;
     box-sizing: border-box;
     font-family: 'inter';
-    color: var(--primary-color);
-    display: grid;
-    font-family: yatra one,sans-serif;
   }
   
   form {
@@ -42,9 +37,10 @@ body{
     margin-bottom: 60px;
     width: 100%;
     padding: 5%;
-    border: none;
+    border: 1px solid #ac4fce;
     border-radius: 7px;
-    background:  #fff;
+    background: #ac4fce;
+    box-shadow: 0 0 5px rgba(10, 10, 10, 0.9);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -55,10 +51,10 @@ body{
   
   input,
   textarea {
-    width: 100%;
+    width: 93%;
     padding: 4%;
     margin-bottom: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid #1f1e1d;
     resize: none;
     color: #0a0a0a;
